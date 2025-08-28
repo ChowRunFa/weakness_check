@@ -216,7 +216,7 @@ def upload_plan():
         # 获取配置参数
         embedding_model = request.form.get('embedding_model', 'nomic-embed-text:latest')
         openai_api_key = request.form.get('openai_api_key', 'ollama')
-        openai_api_base = request.form.get('openai_api_base', 'http://localhost:11434/v1/')
+        openai_api_base = request.form.get('openai_api_base', 'http://59.77.7.24:11434/v1/')
         
         # 验证文本内容
         if not plan_content or not plan_content.strip():
@@ -225,7 +225,7 @@ def upload_plan():
         # 创建审核器，传入原始文件名
         auditor = PlanAuditor(
             plan_content=plan_content,
-            check_list_file='data/weakness_list.jsonl',
+            check_list_file='data/checklist/weakness_list.jsonl',
             embedding_model=embedding_model,
             openai_api_key=openai_api_key,
             openai_api_base=openai_api_base,
@@ -796,10 +796,10 @@ def load_auditor_from_cache(plan_id):
         # 构建auditor
         auditor = PlanAuditor(
             plan_content="",  # 暂时为空，后面会从缓存加载
-            check_list_file='data/weakness_list.jsonl',
+            check_list_file='data/checklist/weakness_list.jsonl',
             embedding_model=file_info.get('embedding_model', 'nomic-embed-text'),
             openai_api_key='ollama',
-            openai_api_base='http://localhost:11434/v1/',
+            openai_api_base='http://59.77.7.24:11434/v1/',
             cache_dir=CACHE_DIR,
             original_filename=file_info.get('original_filename')
         )
@@ -1147,7 +1147,7 @@ def batch_check():
         # 获取配置参数
         embedding_model = request.form.get('embedding_model', 'nomic-embed-text:latest')
         openai_api_key = request.form.get('openai_api_key', 'ollama')
-        openai_api_base = request.form.get('openai_api_base', 'http://localhost:11434/v1/')
+        openai_api_base = request.form.get('openai_api_base', 'http://59.77.7.24:11434/v1/')
         top_k = int(request.form.get('top_k', 5))
         chat_model = request.form.get('chat_model', 'qwen2.5:32b')  # 提前提取chat_model参数
         stream = request.form.get('stream', 'false').lower() == 'true'
@@ -1553,7 +1553,7 @@ def cite_check():
         # 获取配置参数
         embedding_model = request.form.get('embedding_model', 'nomic-embed-text:latest')
         openai_api_key = request.form.get('openai_api_key', 'ollama')
-        openai_api_base = request.form.get('openai_api_base', 'http://localhost:11434/v1/')
+        openai_api_base = request.form.get('openai_api_base', 'http://59.77.7.24:11434/v1/')
         top_k = int(request.form.get('top_k', 5))
         stream = request.form.get('stream', 'false').lower() == 'true'
         
@@ -1915,7 +1915,7 @@ def structure_check():
         chat_model = request.form.get('chat_model', 'qwen2.5:32b')
         top_k = int(request.form.get('top_k', 5))
         openai_api_key = request.form.get('openai_api_key', 'ollama')
-        openai_api_base = request.form.get('openai_api_base', 'http://localhost:11434/v1/')
+        openai_api_base = request.form.get('openai_api_base', 'http://59.77.7.24:11434/v1/')
         stream = request.form.get('stream', 'false').lower() == 'true'
         
         # 验证检查模式

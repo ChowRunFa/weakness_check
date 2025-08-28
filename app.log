@@ -22002,3 +22002,1539 @@ INFO:openai._base_client:Retrying request to /embeddings in 0.784589 seconds
 OpenAI embedding:   0%|                                   | 0/1 [00:31<?, ?it/s]
 ERROR:apis.api_ra_check:æ£€ç´¢æ–‡æ¡£ç‰‡æ®µå¤±è´¥: Request timed out.
 INFO:werkzeug:172.18.69.62 - - [05/Jul/2025 00:06:07] "POST /ra_check/structure_check HTTP/1.1" 200 -
+2025-08-28 15:41:20,169 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 15:41:20,518 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 15:41:30,431 - app - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 15:41:30,432 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 15:41:30,503 - db.connection - ERROR - ´´½¨Êı¾İ¿âÁ¬½ÓÊ§°Ü: (1049, "Unknown database 'biotechnology'")
+2025-08-28 15:41:30,584 - db.connection - ERROR - ´´½¨Êı¾İ¿âÁ¬½ÓÊ§°Ü: (1049, "Unknown database 'biotechnology'")
+2025-08-28 15:41:30,655 - db.connection - ERROR - ´´½¨Êı¾İ¿âÁ¬½ÓÊ§°Ü: (1049, "Unknown database 'biotechnology'")
+2025-08-28 15:41:30,656 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 0
+2025-08-28 15:41:30,725 - db.connection - ERROR - ´´½¨Êı¾İ¿âÁ¬½ÓÊ§°Ü: (1049, "Unknown database 'biotechnology'")
+2025-08-28 15:41:30,725 - db.connection - WARNING - ÎŞ·¨»ñÈ¡Êı¾İ¿âÁ¬½Ó£¬Á¬½Ó³ØÒÑÂú
+2025-08-28 15:41:30,726 - db.connection - ERROR - Êı¾İ¿âÁ¬½Ó²âÊÔÊ§°Ü
+2025-08-28 15:41:30,726 - db.manager - ERROR - Êı¾İ¿âÁ¬½Ó³õÊ¼»¯Ê§°Ü
+2025-08-28 15:41:30,726 - app - ERROR - Êı¾İ¿â³õÊ¼»¯Ê§°Ü
+2025-08-28 15:41:30,726 - app - ERROR - Êı¾İ¿â³õÊ¼»¯Òì³£: Êı¾İ¿â³õÊ¼»¯Ê§°Ü
+2025-08-28 15:41:30,729 - app - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 15:41:30,729 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 15:41:30,729 - app - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 15:46:51,388 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 15:46:51,406 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 15:46:54,083 - app - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 15:46:54,084 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 15:46:54,381 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 15:46:54,454 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 15:46:54,520 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 15:46:54,544 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 15:46:54,605 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 15:46:54,632 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 15:46:54,696 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 15:46:54,721 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 15:46:54,785 - db.models - INFO - ´´½¨uploaded_documents±í³É¹¦
+2025-08-28 15:46:54,810 - db.models - INFO - ±í uploaded_documents ´´½¨³É¹¦
+2025-08-28 15:46:54,810 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 15:46:54,810 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 15:46:54,811 - app - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 15:46:54,811 - app - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 15:46:55,699 - app - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 15:46:55,700 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 15:46:55,700 - app - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 15:47:23,368 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 15:47:23,386 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 15:47:25,747 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 15:47:25,747 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 15:47:26,030 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 15:47:26,100 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 15:47:26,147 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 15:47:26,172 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 15:47:26,223 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 15:47:26,248 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 15:47:26,295 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 15:47:26,318 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 15:47:26,357 - db.models - INFO - ´´½¨uploaded_documents±í³É¹¦
+2025-08-28 15:47:26,387 - db.models - INFO - ±í uploaded_documents ´´½¨³É¹¦
+2025-08-28 15:47:26,387 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 15:47:26,387 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 15:47:26,387 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 15:47:26,387 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 15:47:26,387 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-28 15:47:26,444 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-28 15:47:26,445 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 15:47:34,834 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 15:47:34] "[33mGET / HTTP/1.1[0m" 404 -
+2025-08-28 15:47:36,824 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 15:47:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-28 15:47:41,381 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 15:47:41] "GET /swagger/ HTTP/1.1" 200 -
+2025-08-28 15:47:41,688 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 15:47:41] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-28 15:47:41,769 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 15:47:41] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-28 15:47:41,837 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 15:47:41] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-28 15:47:41,970 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 15:47:41] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-28 15:47:42,753 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 15:47:42] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-28 15:47:42,766 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 15:47:42] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-08-28 16:21:02,758 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 16:21:02,760 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 16:21:02,770 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 16:21:04,966 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 16:21:04,988 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 16:21:08,248 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 16:21:08,248 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 16:21:08,529 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 16:21:08,599 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 16:21:08,646 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 16:21:08,670 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 16:21:08,717 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 16:21:08,740 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 16:21:08,787 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 16:21:08,810 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 16:21:08,857 - db.models - INFO - ´´½¨uploaded_documents±í³É¹¦
+2025-08-28 16:21:08,881 - db.models - INFO - ±í uploaded_documents ´´½¨³É¹¦
+2025-08-28 16:21:08,881 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 16:21:08,882 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 16:21:08,882 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 16:21:08,882 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 16:21:08,882 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-28 16:21:08,914 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-28 16:21:08,915 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 16:21:11,202 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:21:11] "GET /swagger/ HTTP/1.1" 200 -
+2025-08-28 16:21:11,519 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:21:11] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-28 16:21:11,555 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:21:11] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-28 16:21:11,706 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:21:11] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-28 16:21:11,752 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:21:11] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-28 16:21:13,739 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:21:13] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-28 16:21:13,743 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:21:13] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-08-28 16:35:46,952 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 16:35:46,954 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 16:35:46,955 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 16:46:26,917 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 16:46:26,943 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 16:46:29,986 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 16:46:29,987 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 16:46:30,278 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 16:46:30,351 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 16:46:30,400 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 16:46:30,426 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 16:46:30,474 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 16:46:30,500 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 16:46:30,549 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 16:46:30,574 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 16:46:30,622 - db.models - INFO - ´´½¨uploaded_documents±í³É¹¦
+2025-08-28 16:46:30,647 - db.models - INFO - ±í uploaded_documents ´´½¨³É¹¦
+2025-08-28 16:46:30,647 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 16:46:30,649 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 16:46:30,650 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 16:46:30,650 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 16:46:30,650 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-28 16:46:30,686 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-28 16:46:30,686 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 16:46:32,818 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:46:32] "GET /swagger/ HTTP/1.1" 200 -
+2025-08-28 16:46:33,136 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:46:33] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-28 16:46:33,178 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:46:33] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-28 16:46:33,245 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:46:33] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-28 16:46:33,250 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:46:33] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-28 16:46:35,080 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:46:35] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-08-28 16:46:35,092 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:46:35] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-28 16:47:47,856 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 16:47:47,857 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 16:47:47,857 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 16:47:49,737 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 16:47:49,758 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 16:47:53,004 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 16:47:53,004 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 16:47:53,310 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 16:47:53,384 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 16:47:53,436 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 16:47:53,458 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 16:47:53,510 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 16:47:53,534 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 16:47:53,584 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 16:47:53,604 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 16:47:53,658 - db.models - INFO - ´´½¨uploaded_documents±í³É¹¦
+2025-08-28 16:47:53,684 - db.models - INFO - ±í uploaded_documents ´´½¨³É¹¦
+2025-08-28 16:47:53,684 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 16:47:53,684 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 16:47:53,684 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 16:47:53,684 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 16:47:53,684 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-28 16:47:53,710 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-28 16:47:53,710 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 16:47:55,118 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:47:55] "GET /swagger/ HTTP/1.1" 200 -
+2025-08-28 16:47:55,403 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:47:55] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-28 16:47:55,459 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:47:55] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-28 16:47:55,469 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:47:55] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-28 16:47:55,477 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:47:55] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-28 16:47:56,286 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:47:56] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-28 16:47:56,287 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:47:56] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-08-28 16:49:41,200 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:49:41] "[31m[1mPOST /async_structure_check HTTP/1.1[0m" 400 -
+2025-08-28 16:49:53,048 - db.dao - INFO - ´´½¨Òì²½ÈÎÎñ³É¹¦: 1_20250828_164952_971
+2025-08-28 16:49:53,126 - db.dao - INFO - ±£´æÎÄµµĞÅÏ¢³É¹¦: toc_list.jsonl
+2025-08-28 16:49:53,204 - db.dao - INFO - ±£´æÎÄµµĞÅÏ¢³É¹¦: plan1.docx
+2025-08-28 16:49:53,204 - apis.api_async_structure_check - INFO - ÈÎÎñºÍÎÄµµĞÅÏ¢ÒÑ±£´æµ½Êı¾İ¿â£¬ÈÎÎñID: 1_20250828_164952_971
+2025-08-28 16:49:53,205 - apis.api_async_structure_check - INFO - ¿ªÊ¼Òì²½Ö´ĞĞ½á¹¹¼ì²é£¬ÈÎÎñID: 1_20250828_164952_971
+2025-08-28 16:49:53,215 - apis.api_async_structure_check - INFO - Òì²½½á¹¹¼ì²éÈÎÎñÒÑÆô¶¯£¬ÈÎÎñID: 1_20250828_164952_971
+2025-08-28 16:49:53,216 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:49:53] "POST /async_structure_check HTTP/1.1" 200 -
+2025-08-28 16:49:53,440 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_164952_971, ×´Ì¬: processing
+2025-08-28 16:49:53,440 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://192.168.1.100:5000/test/callback, ÈÎÎñID: 1_20250828_164952_971, ×´Ì¬: processing
+2025-08-28 16:50:14,480 - apis.api_async_structure_check - ERROR - ·¢ËÍ»Øµ÷Ê±·¢Éú´íÎó: HTTPConnectionPool(host='192.168.1.100', port=5000): Max retries exceeded with url: /test/callback (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C38F02E5F0>, 'Connection to 192.168.1.100 timed out. (connect timeout=30)')), ÈÎÎñID: 1_20250828_164952_971
+2025-08-28 16:50:14,480 - apis.api_async_structure_check - ERROR - ½á¹¹¼ì²éÖ´ĞĞÊ§°Ü: 'upload_folder', ÈÎÎñID: 1_20250828_164952_971
+2025-08-28 16:50:14,699 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_164952_971, ×´Ì¬: failed
+2025-08-28 16:50:14,699 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://192.168.1.100:5000/test/callback, ÈÎÎñID: 1_20250828_164952_971, ×´Ì¬: failed
+2025-08-28 16:50:35,744 - apis.api_async_structure_check - ERROR - ·¢ËÍ»Øµ÷Ê±·¢Éú´íÎó: HTTPConnectionPool(host='192.168.1.100', port=5000): Max retries exceeded with url: /test/callback (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001C38F02D600>, 'Connection to 192.168.1.100 timed out. (connect timeout=30)')), ÈÎÎñID: 1_20250828_164952_971
+2025-08-28 16:51:09,797 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 16:51:09,799 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 16:51:09,799 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 16:51:11,753 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 16:51:11,774 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 16:51:14,308 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 16:51:14,308 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 16:51:14,609 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 16:51:14,685 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 16:51:14,744 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 16:51:14,769 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 16:51:14,830 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 16:51:14,854 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 16:51:14,910 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 16:51:14,945 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 16:51:15,001 - db.models - INFO - ´´½¨uploaded_documents±í³É¹¦
+2025-08-28 16:51:15,024 - db.models - INFO - ±í uploaded_documents ´´½¨³É¹¦
+2025-08-28 16:51:15,024 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 16:51:15,024 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 16:51:15,024 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 16:51:15,024 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 16:51:15,024 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-28 16:51:15,058 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-28 16:51:15,059 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 16:51:17,629 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:51:17] "GET /swagger/ HTTP/1.1" 200 -
+2025-08-28 16:51:18,040 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:51:18] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-28 16:51:18,055 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:51:18] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-28 16:51:18,065 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:51:18] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-28 16:51:18,094 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:51:18] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-28 16:51:19,262 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:51:19] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-08-28 16:51:19,530 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:51:19] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-28 16:52:42,201 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 16:52:42,202 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 16:52:42,203 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 16:52:48,910 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 16:52:48,928 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 16:52:51,513 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 16:52:51,513 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 16:52:51,803 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 16:52:51,876 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 16:52:51,924 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 16:52:51,949 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 16:52:51,997 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 16:52:52,021 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 16:52:52,070 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 16:52:52,094 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 16:52:52,142 - db.models - INFO - ´´½¨uploaded_documents±í³É¹¦
+2025-08-28 16:52:52,166 - db.models - INFO - ±í uploaded_documents ´´½¨³É¹¦
+2025-08-28 16:52:52,166 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 16:52:52,167 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 16:52:52,169 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 16:52:52,169 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 16:52:52,169 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-28 16:52:52,188 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-28 16:52:52,188 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 16:52:53,702 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:52:53] "GET /swagger/ HTTP/1.1" 200 -
+2025-08-28 16:52:54,059 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:52:54] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-28 16:52:54,118 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:52:54] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-28 16:52:54,143 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:52:54] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-28 16:52:54,147 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:52:54] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-28 16:52:55,065 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:52:55] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-28 16:52:55,067 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:52:55] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-08-28 16:53:00,450 - db.dao - INFO - ´´½¨Òì²½ÈÎÎñ³É¹¦: 1_20250828_165300_374
+2025-08-28 16:53:00,544 - db.dao - INFO - ±£´æÎÄµµĞÅÏ¢³É¹¦: toc_list.jsonl
+2025-08-28 16:53:00,618 - db.dao - INFO - ±£´æÎÄµµĞÅÏ¢³É¹¦: plan1.docx
+2025-08-28 16:53:00,619 - apis.api_async_structure_check - INFO - ÈÎÎñºÍÎÄµµĞÅÏ¢ÒÑ±£´æµ½Êı¾İ¿â£¬ÈÎÎñID: 1_20250828_165300_374
+2025-08-28 16:53:00,620 - apis.api_async_structure_check - INFO - ¿ªÊ¼Òì²½Ö´ĞĞ½á¹¹¼ì²é£¬ÈÎÎñID: 1_20250828_165300_374
+2025-08-28 16:53:00,621 - apis.api_async_structure_check - INFO - Òì²½½á¹¹¼ì²éÈÎÎñÒÑÆô¶¯£¬ÈÎÎñID: 1_20250828_165300_374
+2025-08-28 16:53:00,622 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:53:00] "POST /async_structure_check HTTP/1.1" 200 -
+2025-08-28 16:53:00,857 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_165300_374, ×´Ì¬: processing
+2025-08-28 16:53:00,859 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: 1_20250828_165300_374, ×´Ì¬: processing
+2025-08-28 16:53:00,870 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: 1_20250828_165300_374, ×´Ì¬: processing, Ê±¼ä: 2025-08-28T16:53:00.859251
+2025-08-28 16:53:00,871 - apis.api_async_structure_check - INFO - ÈÎÎñ 1_20250828_165300_374 ÕıÔÚ´¦ÀíÖĞ...
+2025-08-28 16:53:00,872 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:53:00] "POST /test/callback HTTP/1.1" 200 -
+2025-08-28 16:53:00,873 - apis.api_async_structure_check - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: 1_20250828_165300_374
+2025-08-28 16:53:00,900 - apis.api_async_structure_check - ERROR - ½á¹¹¼ì²éÖ´ĞĞÊ§°Ü: 'upload_folder', ÈÎÎñID: 1_20250828_165300_374
+2025-08-28 16:53:01,141 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_165300_374, ×´Ì¬: failed
+2025-08-28 16:53:01,142 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: 1_20250828_165300_374, ×´Ì¬: failed
+2025-08-28 16:53:01,149 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: 1_20250828_165300_374, ×´Ì¬: failed, Ê±¼ä: 2025-08-28T16:53:01.142685
+2025-08-28 16:53:01,149 - apis.api_async_structure_check - ERROR - ÈÎÎñ 1_20250828_165300_374 Ö´ĞĞÊ§°Ü: ½á¹¹¼ì²éÖ´ĞĞÊ§°Ü: 'upload_folder'
+2025-08-28 16:53:01,150 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 16:53:01] "POST /test/callback HTTP/1.1" 200 -
+2025-08-28 16:53:01,151 - apis.api_async_structure_check - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: 1_20250828_165300_374
+2025-08-28 16:54:31,334 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 16:54:31,335 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 16:54:31,336 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 19:19:27,040 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 19:19:27,104 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 19:19:30,378 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 19:19:30,379 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 19:19:30,715 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 19:19:30,791 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 19:19:30,839 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 19:19:30,861 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 19:19:30,906 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 19:19:30,930 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 19:19:30,982 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 19:19:31,010 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 19:19:31,055 - db.models - INFO - ´´½¨uploaded_documents±í³É¹¦
+2025-08-28 19:19:31,079 - db.models - INFO - ±í uploaded_documents ´´½¨³É¹¦
+2025-08-28 19:19:31,079 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 19:19:31,080 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 19:19:31,080 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 19:19:31,080 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 19:19:31,081 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-28 19:19:31,114 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-28 19:19:31,114 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 19:19:54,232 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:19:54] "GET /swagger/ HTTP/1.1" 200 -
+2025-08-28 19:19:54,534 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:19:54] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-28 19:19:54,537 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:19:54] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-28 19:19:54,547 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:19:54] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-28 19:19:54,554 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:19:54] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-28 19:19:56,295 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:19:56] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-28 19:19:56,297 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:19:56] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-08-28 19:20:01,470 - db.dao - INFO - ´´½¨Òì²½ÈÎÎñ³É¹¦: 1_20250828_192001_398
+2025-08-28 19:20:01,538 - db.dao - INFO - ±£´æÎÄµµĞÅÏ¢³É¹¦: toc_list.jsonl
+2025-08-28 19:20:01,605 - db.dao - INFO - ±£´æÎÄµµĞÅÏ¢³É¹¦: plan1.docx
+2025-08-28 19:20:01,606 - apis.api_async_structure_check - INFO - ÈÎÎñºÍÎÄµµĞÅÏ¢ÒÑ±£´æµ½Êı¾İ¿â£¬ÈÎÎñID: 1_20250828_192001_398
+2025-08-28 19:20:01,607 - apis.api_async_structure_check - INFO - ¿ªÊ¼Òì²½Ö´ĞĞ½á¹¹¼ì²é£¬ÈÎÎñID: 1_20250828_192001_398
+2025-08-28 19:20:01,608 - apis.api_async_structure_check - INFO - Òì²½½á¹¹¼ì²éÈÎÎñÒÑÆô¶¯£¬ÈÎÎñID: 1_20250828_192001_398
+2025-08-28 19:20:01,611 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:20:01] "POST /async_structure_check HTTP/1.1" 200 -
+2025-08-28 19:20:01,837 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_192001_398, ×´Ì¬: processing
+2025-08-28 19:20:01,841 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: 1_20250828_192001_398, ×´Ì¬: processing
+2025-08-28 19:20:01,871 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: 1_20250828_192001_398, ×´Ì¬: processing, Ê±¼ä: 2025-08-28T19:20:01.841886
+2025-08-28 19:20:01,874 - apis.api_async_structure_check - INFO - ÈÎÎñ 1_20250828_192001_398 ÕıÔÚ´¦ÀíÖĞ...
+2025-08-28 19:20:01,885 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:20:01] "POST /test/callback HTTP/1.1" 200 -
+2025-08-28 19:20:01,911 - apis.api_async_structure_check - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: 1_20250828_192001_398
+2025-08-28 19:20:06,793 - apis.api_async_structure_check - INFO - ³É¹¦ÌáÈ¡ÎÄµµÄÚÈİ£¬³¤¶È: 43950 ×Ö·û
+2025-08-28 19:20:23,660 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:20:23,661 - openai._base_client - INFO - Retrying request to /embeddings in 0.472960 seconds
+2025-08-28 19:20:39,802 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:20:39,803 - openai._base_client - INFO - Retrying request to /embeddings in 0.996856 seconds
+2025-08-28 19:20:56,430 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:20:56,432 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 1 Ê§°Ü: Error code: 502
+2025-08-28 19:21:12,302 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:21:12,303 - openai._base_client - INFO - Retrying request to /embeddings in 0.441652 seconds
+2025-08-28 19:21:28,430 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:21:28,431 - openai._base_client - INFO - Retrying request to /embeddings in 0.965189 seconds
+2025-08-28 19:21:45,075 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:21:45,076 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 2 Ê§°Ü: Error code: 502
+2025-08-28 19:22:00,941 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:22:00,943 - openai._base_client - INFO - Retrying request to /embeddings in 0.451454 seconds
+2025-08-28 19:22:17,078 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:22:17,078 - openai._base_client - INFO - Retrying request to /embeddings in 0.966342 seconds
+2025-08-28 19:22:33,707 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:22:33,709 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 3 Ê§°Ü: Error code: 502
+2025-08-28 19:22:49,591 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:22:49,592 - openai._base_client - INFO - Retrying request to /embeddings in 0.476446 seconds
+2025-08-28 19:23:05,712 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:23:05,713 - openai._base_client - INFO - Retrying request to /embeddings in 0.874489 seconds
+2025-08-28 19:23:22,351 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:23:22,352 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 4 Ê§°Ü: Error code: 502
+2025-08-28 19:23:38,221 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:23:38,223 - openai._base_client - INFO - Retrying request to /embeddings in 0.417480 seconds
+2025-08-28 19:23:54,352 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:23:54,353 - openai._base_client - INFO - Retrying request to /embeddings in 0.997552 seconds
+2025-08-28 19:24:10,990 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:24:10,991 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 5 Ê§°Ü: Error code: 502
+2025-08-28 19:24:26,870 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:24:26,870 - openai._base_client - INFO - Retrying request to /embeddings in 0.389341 seconds
+2025-08-28 19:24:42,990 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:24:42,990 - openai._base_client - INFO - Retrying request to /embeddings in 0.912635 seconds
+2025-08-28 19:24:59,626 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:24:59,627 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 6 Ê§°Ü: Error code: 502
+2025-08-28 19:25:15,502 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:25:15,503 - openai._base_client - INFO - Retrying request to /embeddings in 0.408576 seconds
+2025-08-28 19:25:31,634 - httpx - INFO - HTTP Request: POST http://59.77.7.24:11434/v1/embeddings "HTTP/1.1 502 Bad Gateway"
+2025-08-28 19:25:31,634 - openai._base_client - INFO - Retrying request to /embeddings in 0.953688 seconds
+2025-08-28 19:25:31,664 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 19:25:31,666 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 19:25:31,666 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 19:32:57,055 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 19:32:57,078 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 19:33:00,157 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 19:33:00,158 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 19:33:00,443 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 19:33:00,511 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 19:33:00,557 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 19:33:00,581 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 19:33:00,627 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 19:33:00,650 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 19:33:00,697 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 19:33:00,721 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 19:33:00,766 - db.models - INFO - ´´½¨uploaded_documents±í³É¹¦
+2025-08-28 19:33:00,791 - db.models - INFO - ±í uploaded_documents ´´½¨³É¹¦
+2025-08-28 19:33:00,791 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 19:33:00,791 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 19:33:00,792 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 19:33:00,792 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 19:33:00,792 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-28 19:33:00,822 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-28 19:33:00,823 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 19:33:02,698 - db.dao - INFO - ´´½¨Òì²½ÈÎÎñ³É¹¦: 1_20250828_193302_624
+2025-08-28 19:33:02,772 - db.dao - INFO - ±£´æÎÄµµĞÅÏ¢³É¹¦: toc_list.jsonl
+2025-08-28 19:33:02,842 - db.dao - INFO - ±£´æÎÄµµĞÅÏ¢³É¹¦: plan1.docx
+2025-08-28 19:33:02,842 - apis.api_async_structure_check - INFO - ÈÎÎñºÍÎÄµµĞÅÏ¢ÒÑ±£´æµ½Êı¾İ¿â£¬ÈÎÎñID: 1_20250828_193302_624
+2025-08-28 19:33:02,844 - apis.api_async_structure_check - INFO - ¿ªÊ¼Òì²½Ö´ĞĞ½á¹¹¼ì²é£¬ÈÎÎñID: 1_20250828_193302_624
+2025-08-28 19:33:02,844 - apis.api_async_structure_check - INFO - Òì²½½á¹¹¼ì²éÈÎÎñÒÑÆô¶¯£¬ÈÎÎñID: 1_20250828_193302_624
+2025-08-28 19:33:02,845 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:33:02] "POST /async_structure_check HTTP/1.1" 200 -
+2025-08-28 19:33:03,058 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_193302_624, ×´Ì¬: processing
+2025-08-28 19:33:03,059 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: 1_20250828_193302_624, ×´Ì¬: processing
+2025-08-28 19:33:03,082 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: 1_20250828_193302_624, ×´Ì¬: processing, Ê±¼ä: 2025-08-28T19:33:03.059985
+2025-08-28 19:33:03,083 - apis.api_async_structure_check - INFO - ÈÎÎñ 1_20250828_193302_624 ÕıÔÚ´¦ÀíÖĞ...
+2025-08-28 19:33:03,085 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:33:03] "POST /test/callback HTTP/1.1" 200 -
+2025-08-28 19:33:03,090 - apis.api_async_structure_check - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: 1_20250828_193302_624
+2025-08-28 19:33:07,639 - apis.api_async_structure_check - INFO - ³É¹¦ÌáÈ¡ÎÄµµÄÚÈİ£¬³¤¶È: 43950 ×Ö·û
+2025-08-28 19:33:09,796 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 19:33:09,823 - openai._base_client - INFO - Retrying request to /embeddings in 0.491521 seconds
+2025-08-28 19:33:11,013 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 19:33:11,044 - openai._base_client - INFO - Retrying request to /embeddings in 0.886110 seconds
+2025-08-28 19:33:12,601 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 19:33:12,644 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 1 Ê§°Ü: Error code: 503 - {'error': {'message': 'ËùÓĞÁîÅÆ·Ö×é Azure,AzureÎŞÉó ÏÂ¶ÔÓÚÄ£ĞÍ nomic-embed-text:latest ¾ùÎŞ¿ÉÓÃÇşµÀ£¬Çë¸ü»»·Ö×é³¢ÊÔ (request id: 20250828193312479203708yNfBzG0H)', 'type': 'rix_api_error'}}
+2025-08-28 19:33:13,232 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 19:33:13,271 - openai._base_client - INFO - Retrying request to /embeddings in 0.478241 seconds
+2025-08-28 19:33:14,392 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 19:33:14,407 - openai._base_client - INFO - Retrying request to /embeddings in 0.986466 seconds
+2025-08-28 19:33:15,946 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 19:33:15,979 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 2 Ê§°Ü: Error code: 503 - {'error': {'message': 'ËùÓĞÁîÅÆ·Ö×é Azure,AzureÎŞÉó ÏÂ¶ÔÓÚÄ£ĞÍ nomic-embed-text:latest ¾ùÎŞ¿ÉÓÃÇşµÀ£¬Çë¸ü»»·Ö×é³¢ÊÔ (request id: 20250828193315819951840XNQAI2As)', 'type': 'rix_api_error'}}
+2025-08-28 19:33:16,472 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 19:33:16,486 - openai._base_client - INFO - Retrying request to /embeddings in 0.480495 seconds
+2025-08-28 19:33:17,376 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 19:33:17,380 - openai._base_client - INFO - Retrying request to /embeddings in 0.789903 seconds
+2025-08-28 19:33:18,428 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 19:33:18,459 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 3 Ê§°Ü: Error code: 503 - {'error': {'message': 'ËùÓĞÁîÅÆ·Ö×é Azure,AzureÎŞÉó ÏÂ¶ÔÓÚÄ£ĞÍ nomic-embed-text:latest ¾ùÎŞ¿ÉÓÃÇşµÀ£¬Çë¸ü»»·Ö×é³¢ÊÔ (request id: 20250828193318328438014fFoK7wkI)', 'type': 'rix_api_error'}}
+2025-08-28 19:33:18,825 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 19:33:18,829 - openai._base_client - INFO - Retrying request to /embeddings in 0.487466 seconds
+2025-08-28 19:33:19,394 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 19:33:19,396 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 19:33:19,396 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 19:33:52,401 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 19:33:52,420 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 19:33:54,974 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 19:33:54,974 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 19:33:55,257 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 19:33:55,331 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 19:33:55,378 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 19:33:55,401 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 19:33:55,453 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 19:33:55,496 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 19:33:55,541 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 19:33:55,564 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 19:33:55,610 - db.models - INFO - ´´½¨uploaded_documents±í³É¹¦
+2025-08-28 19:33:55,633 - db.models - INFO - ±í uploaded_documents ´´½¨³É¹¦
+2025-08-28 19:33:55,633 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 19:33:55,633 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 19:33:55,634 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 19:33:55,634 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 19:33:55,634 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-28 19:33:55,653 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-28 19:33:55,654 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 19:33:57,447 - db.dao - INFO - ´´½¨Òì²½ÈÎÎñ³É¹¦: 1_20250828_193357_374
+2025-08-28 19:33:57,530 - db.dao - INFO - ±£´æÎÄµµĞÅÏ¢³É¹¦: toc_list.jsonl
+2025-08-28 19:33:57,607 - db.dao - INFO - ±£´æÎÄµµĞÅÏ¢³É¹¦: plan1.docx
+2025-08-28 19:33:57,607 - apis.api_async_structure_check - INFO - ÈÎÎñºÍÎÄµµĞÅÏ¢ÒÑ±£´æµ½Êı¾İ¿â£¬ÈÎÎñID: 1_20250828_193357_374
+2025-08-28 19:33:57,609 - apis.api_async_structure_check - INFO - ¿ªÊ¼Òì²½Ö´ĞĞ½á¹¹¼ì²é£¬ÈÎÎñID: 1_20250828_193357_374
+2025-08-28 19:33:57,609 - apis.api_async_structure_check - INFO - Òì²½½á¹¹¼ì²éÈÎÎñÒÑÆô¶¯£¬ÈÎÎñID: 1_20250828_193357_374
+2025-08-28 19:33:57,612 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:33:57] "POST /async_structure_check HTTP/1.1" 200 -
+2025-08-28 19:33:57,889 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_193357_374, ×´Ì¬: processing
+2025-08-28 19:33:57,892 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: 1_20250828_193357_374, ×´Ì¬: processing
+2025-08-28 19:33:57,924 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: 1_20250828_193357_374, ×´Ì¬: processing, Ê±¼ä: 2025-08-28T19:33:57.892072
+2025-08-28 19:33:57,927 - apis.api_async_structure_check - INFO - ÈÎÎñ 1_20250828_193357_374 ÕıÔÚ´¦ÀíÖĞ...
+2025-08-28 19:33:57,938 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:33:57] "POST /test/callback HTTP/1.1" 200 -
+2025-08-28 19:33:57,948 - apis.api_async_structure_check - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: 1_20250828_193357_374
+2025-08-28 19:34:03,251 - apis.api_async_structure_check - INFO - ³É¹¦ÌáÈ¡ÎÄµµÄÚÈİ£¬³¤¶È: 43950 ×Ö·û
+2025-08-28 19:34:04,999 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:34:05,030 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 1 Ê§°Ü: 
+2025-08-28 19:34:06,278 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:34:06,302 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 2 Ê§°Ü: 
+2025-08-28 19:34:06,697 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:34:06,717 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 3 Ê§°Ü: 
+2025-08-28 19:34:07,091 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:34:07,126 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 4 Ê§°Ü: 
+2025-08-28 19:34:22,319 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 524 Receive timeout from origin"
+2025-08-28 19:34:22,320 - openai._base_client - INFO - Retrying request to /embeddings in 0.499252 seconds
+2025-08-28 19:34:23,184 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:34:23,209 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 5 Ê§°Ü: 
+2025-08-28 19:34:24,029 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:34:24,253 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 6 Ê§°Ü: 
+2025-08-28 19:34:24,579 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:34:24,600 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 7 Ê§°Ü: 
+2025-08-28 19:34:24,993 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:34:25,017 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 8 Ê§°Ü: 
+2025-08-28 19:34:25,463 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:34:25,482 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 9 Ê§°Ü: 
+2025-08-28 19:34:25,979 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:34:26,004 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 10 Ê§°Ü: 
+2025-08-28 19:34:26,465 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:34:26,494 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 11 Ê§°Ü: 
+2025-08-28 19:34:26,866 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:34:26,897 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 12 Ê§°Ü: 
+2025-08-28 19:34:27,042 - db.models - INFO - ÅúÁ¿²åÈë116Ìõ¼ì²éÏî¼ÇÂ¼³É¹¦
+2025-08-28 19:34:27,065 - db.dao - INFO - ±£´æ½á¹¹¼ì²é½á¹û³É¹¦: 1_20250828_193357_374
+2025-08-28 19:34:27,284 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_193357_374, ×´Ì¬: success
+2025-08-28 19:34:27,285 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: 1_20250828_193357_374, ×´Ì¬: success
+2025-08-28 19:34:27,309 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: 1_20250828_193357_374, ×´Ì¬: success, Ê±¼ä: 2025-08-28T19:34:27.285505
+2025-08-28 19:34:27,310 - apis.api_async_structure_check - INFO - ÈÎÎñ 1_20250828_193357_374 Ö´ĞĞ³É¹¦:
+2025-08-28 19:34:27,310 - apis.api_async_structure_check - INFO -   - ×ÜÏîÄ¿Êı: 116
+2025-08-28 19:34:27,310 - apis.api_async_structure_check - INFO -   - ÍêÕûÏîÄ¿Êı: 0
+2025-08-28 19:34:27,310 - apis.api_async_structure_check - INFO -   - È±Ê§ÏîÄ¿Êı: 0
+2025-08-28 19:34:27,311 - apis.api_async_structure_check - INFO -   - ²¿·ÖÍêÕûÏîÄ¿Êı: 0
+2025-08-28 19:34:27,311 - apis.api_async_structure_check - INFO -   - ÍêÕûĞÔ±ÈÀı: 0.0%
+2025-08-28 19:34:27,312 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:34:27] "POST /test/callback HTTP/1.1" 200 -
+2025-08-28 19:34:27,313 - apis.api_async_structure_check - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: 1_20250828_193357_374
+2025-08-28 19:34:27,314 - apis.api_async_structure_check - INFO - ½á¹¹¼ì²éÍê³É£¬ÈÎÎñID: 1_20250828_193357_374
+2025-08-28 19:36:07,029 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 19:36:07,030 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 19:36:07,030 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 19:42:08,723 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 19:42:08,744 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 19:42:11,443 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 19:42:11,443 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 19:42:11,735 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 19:42:11,811 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 19:42:11,886 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 19:42:11,910 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 19:42:11,976 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 19:42:12,001 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 19:42:12,067 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 19:42:12,093 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 19:42:12,161 - db.models - INFO - ´´½¨uploaded_documents±í³É¹¦
+2025-08-28 19:42:12,185 - db.models - INFO - ±í uploaded_documents ´´½¨³É¹¦
+2025-08-28 19:42:12,186 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 19:42:12,187 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 19:42:12,187 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 19:42:12,187 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 19:42:12,187 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-28 19:42:12,207 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-28 19:42:12,208 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 19:43:28,211 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 19:43:28,213 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 19:43:28,215 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 19:46:46,623 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 19:46:46,652 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 19:46:51,102 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 19:46:51,102 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 19:46:51,410 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 19:46:51,484 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 19:46:51,552 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 19:46:51,576 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 19:46:51,646 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 19:46:51,676 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 19:46:51,746 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 19:46:51,770 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 19:46:51,840 - db.models - INFO - ´´½¨document_references±í³É¹¦
+2025-08-28 19:46:51,870 - db.models - INFO - ±í document_references ´´½¨³É¹¦
+2025-08-28 19:46:51,871 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 19:46:51,872 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 19:46:51,872 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 19:46:51,872 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 19:46:51,873 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-28 19:46:51,896 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-28 19:46:51,897 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 19:47:02,947 - db.dao - INFO - ´´½¨Òì²½ÈÎÎñ³É¹¦: 1_20250828_194702_872
+2025-08-28 19:47:03,023 - db.dao - INFO - ±£´æÎÄµµÒıÓÃ³É¹¦: toc_list.jsonl
+2025-08-28 19:47:03,100 - db.dao - INFO - ±£´æÎÄµµÒıÓÃ³É¹¦: plan1.docx
+2025-08-28 19:47:03,100 - apis.api_async_structure_check - INFO - ÈÎÎñºÍÎÄµµĞÅÏ¢ÒÑ±£´æµ½Êı¾İ¿â£¬ÈÎÎñID: 1_20250828_194702_872
+2025-08-28 19:47:03,102 - apis.api_async_structure_check - INFO - ¿ªÊ¼Òì²½Ö´ĞĞ½á¹¹¼ì²é£¬ÈÎÎñID: 1_20250828_194702_872
+2025-08-28 19:47:03,102 - apis.api_async_structure_check - INFO - Òì²½½á¹¹¼ì²éÈÎÎñÒÑÆô¶¯£¬ÈÎÎñID: 1_20250828_194702_872
+2025-08-28 19:47:03,104 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:47:03] "POST /async_structure_check HTTP/1.1" 200 -
+2025-08-28 19:47:03,332 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_194702_872, ×´Ì¬: processing
+2025-08-28 19:47:03,333 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: 1_20250828_194702_872, ×´Ì¬: processing
+2025-08-28 19:47:03,348 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: 1_20250828_194702_872, ×´Ì¬: processing, Ê±¼ä: 2025-08-28T19:47:03.333656
+2025-08-28 19:47:03,349 - apis.api_async_structure_check - INFO - ÈÎÎñ 1_20250828_194702_872 ÕıÔÚ´¦ÀíÖĞ...
+2025-08-28 19:47:03,359 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:47:03] "POST /test/callback HTTP/1.1" 200 -
+2025-08-28 19:47:03,368 - apis.api_async_structure_check - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: 1_20250828_194702_872
+2025-08-28 19:47:07,746 - apis.api_async_structure_check - INFO - ³É¹¦ÌáÈ¡ÎÄµµÄÚÈİ£¬³¤¶È: 43950 ×Ö·û
+2025-08-28 19:47:09,497 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:47:09,519 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 1 Ê§°Ü: 
+2025-08-28 19:47:11,379 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:47:11,400 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 2 Ê§°Ü: 
+2025-08-28 19:47:15,651 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:47:15,654 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 3 Ê§°Ü: 
+2025-08-28 19:47:16,102 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:47:16,132 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 4 Ê§°Ü: 
+2025-08-28 19:47:16,475 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:47:16,500 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 5 Ê§°Ü: 
+2025-08-28 19:47:20,067 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:47:20,091 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 6 Ê§°Ü: 
+2025-08-28 19:47:20,418 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:47:20,439 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 7 Ê§°Ü: 
+2025-08-28 19:47:20,915 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:47:20,918 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 8 Ê§°Ü: 
+2025-08-28 19:47:36,236 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 524 Receive timeout from origin"
+2025-08-28 19:47:36,237 - openai._base_client - INFO - Retrying request to /embeddings in 0.396932 seconds
+2025-08-28 19:47:37,636 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:47:37,638 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 9 Ê§°Ü: 
+2025-08-28 19:47:38,216 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:47:38,243 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 10 Ê§°Ü: 
+2025-08-28 19:47:38,781 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:47:38,788 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 11 Ê§°Ü: 
+2025-08-28 19:47:41,397 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:47:41,652 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 12 Ê§°Ü: 
+2025-08-28 19:47:41,817 - db.models - INFO - ÅúÁ¿²åÈë116Ìõ¼ì²éÏî¼ÇÂ¼³É¹¦
+2025-08-28 19:47:41,840 - db.dao - INFO - ±£´æ½á¹¹¼ì²é½á¹û³É¹¦: 1_20250828_194702_872
+2025-08-28 19:47:42,065 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_194702_872, ×´Ì¬: success
+2025-08-28 19:47:42,065 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: 1_20250828_194702_872, ×´Ì¬: success
+2025-08-28 19:47:42,072 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: 1_20250828_194702_872, ×´Ì¬: success, Ê±¼ä: 2025-08-28T19:47:42.065837
+2025-08-28 19:47:42,073 - apis.api_async_structure_check - INFO - ÈÎÎñ 1_20250828_194702_872 Ö´ĞĞ³É¹¦:
+2025-08-28 19:47:42,073 - apis.api_async_structure_check - INFO -   - ×ÜÏîÄ¿Êı: 116
+2025-08-28 19:47:42,073 - apis.api_async_structure_check - INFO -   - ÍêÕûÏîÄ¿Êı: 0
+2025-08-28 19:47:42,074 - apis.api_async_structure_check - INFO -   - È±Ê§ÏîÄ¿Êı: 0
+2025-08-28 19:47:42,074 - apis.api_async_structure_check - INFO -   - ²¿·ÖÍêÕûÏîÄ¿Êı: 0
+2025-08-28 19:47:42,074 - apis.api_async_structure_check - INFO -   - ÍêÕûĞÔ±ÈÀı: 0.0%
+2025-08-28 19:47:42,075 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:47:42] "POST /test/callback HTTP/1.1" 200 -
+2025-08-28 19:47:42,077 - apis.api_async_structure_check - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: 1_20250828_194702_872
+2025-08-28 19:47:42,078 - apis.api_async_structure_check - INFO - ½á¹¹¼ì²éÍê³É£¬ÈÎÎñID: 1_20250828_194702_872
+2025-08-28 19:51:16,628 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 19:51:16,630 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 19:51:16,630 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 19:53:23,833 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 19:53:23,854 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 19:53:39,696 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 19:53:39,721 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 19:53:42,800 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 19:53:42,801 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 19:53:43,105 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 19:53:43,172 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 19:53:43,218 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 19:53:43,240 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 19:53:43,291 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 19:53:43,313 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 19:53:43,358 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 19:53:43,379 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 19:53:43,426 - db.models - INFO - ´´½¨document_references±í³É¹¦
+2025-08-28 19:53:43,447 - db.models - INFO - ±í document_references ´´½¨³É¹¦
+2025-08-28 19:53:43,448 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 19:53:43,449 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 19:53:43,450 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 19:53:43,450 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 19:53:43,450 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-28 19:53:43,481 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-28 19:53:43,482 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 19:53:45,298 - db.dao - INFO - ´´½¨Òì²½ÈÎÎñ³É¹¦: 1_20250828_195345_214
+2025-08-28 19:53:45,370 - db.dao - INFO - ±£´æÎÄµµÒıÓÃ³É¹¦: toc_list.jsonl
+2025-08-28 19:53:45,471 - db.dao - INFO - ±£´æÎÄµµÒıÓÃ³É¹¦: plan1.docx
+2025-08-28 19:53:45,472 - apis.api_async_structure_check - INFO - ÈÎÎñºÍÎÄµµĞÅÏ¢ÒÑ±£´æµ½Êı¾İ¿â£¬ÈÎÎñID: 1_20250828_195345_214
+2025-08-28 19:53:45,487 - apis.api_async_structure_check - INFO - ¿ªÊ¼Òì²½Ö´ĞĞ½á¹¹¼ì²é£¬ÈÎÎñID: 1_20250828_195345_214
+2025-08-28 19:53:45,487 - apis.api_async_structure_check - INFO - Òì²½½á¹¹¼ì²éÈÎÎñÒÑÆô¶¯£¬ÈÎÎñID: 1_20250828_195345_214
+2025-08-28 19:53:45,498 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:53:45] "POST /async_structure_check HTTP/1.1" 200 -
+2025-08-28 19:53:45,720 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_195345_214, ×´Ì¬: processing
+2025-08-28 19:53:45,722 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: 1_20250828_195345_214, ×´Ì¬: processing
+2025-08-28 19:53:45,738 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: 1_20250828_195345_214, ×´Ì¬: processing, Ê±¼ä: 2025-08-28T19:53:45.722312
+2025-08-28 19:53:45,739 - apis.api_async_structure_check - INFO - ÈÎÎñ 1_20250828_195345_214 ÕıÔÚ´¦ÀíÖĞ...
+2025-08-28 19:53:45,744 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:53:45] "POST /test/callback HTTP/1.1" 200 -
+2025-08-28 19:53:45,751 - apis.api_async_structure_check - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: 1_20250828_195345_214
+2025-08-28 19:53:50,426 - apis.api_async_structure_check - INFO - ³É¹¦ÌáÈ¡ÎÄµµÄÚÈİ£¬³¤¶È: 43950 ×Ö·û
+2025-08-28 19:53:51,410 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 1£¬²éÑ¯: µÚ1ÕÂ 1 ¹¤³Ì¸Å¿ö 1.1 ¹¤³Ì¼ò½é 1.1£¨1£© ¹¤³ÌÏîÄ¿¼ò½é 1.1£¨2£© ¹¤³Ì¹æÄ£ 1.2 ×ÔÈ»µØÀíÌØÕ÷
+2025-08-28 19:53:52,157 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:53:52,160 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 1 Ê§°Ü: 
+2025-08-28 19:53:52,191 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 841, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=min(top_k * 3, 20))
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:53:52,191 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 2£¬²éÑ¯: µÚ2ÕÂ 2 ±àÖÆËµÃ÷ 2.1 ±àÖÆÒÀ¾İ 2.2 ±àÖÆÔ­Ôò 2.3 ±àÖÆ·¶Î§
+2025-08-28 19:53:52,929 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:53:52,945 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 2 Ê§°Ü: 
+2025-08-28 19:53:52,946 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 841, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=min(top_k * 3, 20))
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:53:52,947 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 3£¬²éÑ¯: µÚ3ÕÂ 3 Ê©¹¤¼Æ»® 3.1 Ê©¹¤×ÜÌå²¿Êğ 3.2 ½ø¶È¼Æ»® 3.3 ²ÄÁÏÉè±¸¼Æ»® 3.3.1 Ö÷Òª»úĞµÉè±¸×¼±¸Çé¿ö
+2025-08-28 19:53:53,394 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:53:53,416 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 3 Ê§°Ü: 
+2025-08-28 19:53:53,416 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 841, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=min(top_k * 3, 20))
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:53:53,417 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 4£¬²éÑ¯: µÚ4ÕÂ 4 Ê©¹¤¹¤ÒÕ¼¼Êõ 4.1 ·½°¸±ÈÑ¡ 4.2 ¹¤ÒÕÁ÷³Ì 4.2.1 **Ê©¹¤¹¤ÒÕ 4.2.2 **Ê©¹¤¹¤ÒÕ
+2025-08-28 19:53:53,806 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:53:53,829 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 4 Ê§°Ü: 
+2025-08-28 19:53:53,831 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 841, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=min(top_k * 3, 20))
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:53:53,831 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 5£¬²éÑ¯: µÚ5ÕÂ 5 Ê©¹¤¹ÜÀí¼°×÷ÒµÈËÔ±Åä±¸ºÍ·Ö¹¤ 5.1 Ê©¹¤¹ÜÀíÈËÔ±Åä±¸ 5.2 ×¨Ö°°²È«Éú²ú¹ÜÀíÈËÔ± 5.3 ÌØÖÖ×÷ÒµÈËÔ± 5.4 ÆäËû×÷ÒµÈËÔ±Åä±¸
+2025-08-28 19:53:54,283 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:53:54,294 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 5 Ê§°Ü: 
+2025-08-28 19:53:54,295 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 841, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=min(top_k * 3, 20))
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:53:54,295 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 6£¬²éÑ¯: µÚ6ÕÂ 6 ÑéÊÕÒªÇó 6.1 ÑéÊÕ±ê×¼ 6.2 ÑéÊÕÄÚÈİ 6.3 ÑéÊÕ³ÌĞò 6.4 ÑéÊÕÈËÔ±
+2025-08-28 19:53:54,615 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:53:54,638 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 6 Ê§°Ü: 
+2025-08-28 19:53:54,638 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 841, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=min(top_k * 3, 20))
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:53:54,639 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 7£¬²éÑ¯: µÚ7ÕÂ 7 Ê©¹¤°²È«±£Ö¤´ëÊ© 7.1 °²È«±£Ö¤ÌåÏµ 7.1.1 ÏîÄ¿°²È«Éú²ú×éÖ¯»ú¹¹Í¼¼°°²È«±£Ö¤ÌåÏµÍ¼ 7.1.2 ÏîÄ¿Ö÷Òª¹ÜÀíÈËÔ±°²È«Ö°Ôğ 7.2 Î£ÏÕÔ´±æÊ¶
+2025-08-28 19:53:56,364 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:53:56,392 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 7 Ê§°Ü: 
+2025-08-28 19:53:56,392 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 841, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=min(top_k * 3, 20))
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:53:56,393 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 8£¬²éÑ¯: µÚ8ÕÂ 8 Ê©¹¤ÖÊÁ¿±£Ö¤´ëÊ© 8.1 ÖÊÁ¿×éÖ¯»ú¹¹Í¼¼°ÖÊÁ¿±£Ö¤ÌåÏµÍ¼ 8.2 ÖÊÁ¿¿ØÖÆÒªµã 8.3 Ê©¹¤Í¨²¡¹Ü¿Ø´ëÊ©
+2025-08-28 19:53:56,868 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:53:56,894 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 8 Ê§°Ü: 
+2025-08-28 19:53:56,895 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 841, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=min(top_k * 3, 20))
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:53:56,896 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 9£¬²éÑ¯: µÚ9ÕÂ 9 »·Ë®±£±£Ö¤´ëÊ© 9.1 »·Ë®±£±£Ö¤ÌåÏµ 9.1.1 »·Ë®±£×éÖ¯»ú¹¹Í¼¼°±£Ö¤ÌåÏµÍ¼ 9.1.2 ÏîÄ¿Ö÷Òª¹ÜÀíÈËÔ±»·±£Ö°Ôğ 9.2 »·Ë®±£·çÏÕ
+2025-08-28 19:53:58,596 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:53:58,599 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 9 Ê§°Ü: 
+2025-08-28 19:53:58,600 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 841, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=min(top_k * 3, 20))
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:53:58,610 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 10£¬²éÑ¯: µÚ10ÕÂ 10 ÆäËû±£Ö¤´ëÊ© 10.1 Ö°Òµ½¡¿µ±£Ö¤´ëÊ© 10.2 ÎÄÃ÷Ê©¹¤±£Ö¤´ëÊ©
+2025-08-28 19:54:00,043 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 19:54:00,045 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 19:54:00,046 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 19:56:05,275 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 19:56:05,297 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 19:56:08,919 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 19:56:08,919 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 19:56:09,230 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 19:56:09,318 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 19:56:09,377 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 19:56:09,409 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 19:56:09,468 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 19:56:09,499 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 19:56:09,558 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 19:56:09,587 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 19:56:09,644 - db.models - INFO - ´´½¨document_references±í³É¹¦
+2025-08-28 19:56:09,675 - db.models - INFO - ±í document_references ´´½¨³É¹¦
+2025-08-28 19:56:09,676 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 19:56:09,678 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 19:56:09,678 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 19:56:09,678 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 19:56:09,678 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-28 19:56:09,698 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-28 19:56:09,698 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 19:56:11,290 - db.dao - INFO - ´´½¨Òì²½ÈÎÎñ³É¹¦: 1_20250828_195611_201
+2025-08-28 19:56:11,377 - db.dao - INFO - ±£´æÎÄµµÒıÓÃ³É¹¦: toc_list.jsonl
+2025-08-28 19:56:11,462 - db.dao - INFO - ±£´æÎÄµµÒıÓÃ³É¹¦: plan1.docx
+2025-08-28 19:56:11,463 - apis.api_async_structure_check - INFO - ÈÎÎñºÍÎÄµµĞÅÏ¢ÒÑ±£´æµ½Êı¾İ¿â£¬ÈÎÎñID: 1_20250828_195611_201
+2025-08-28 19:56:11,464 - apis.api_async_structure_check - INFO - ¿ªÊ¼Òì²½Ö´ĞĞ½á¹¹¼ì²é£¬ÈÎÎñID: 1_20250828_195611_201
+2025-08-28 19:56:11,465 - apis.api_async_structure_check - INFO - Òì²½½á¹¹¼ì²éÈÎÎñÒÑÆô¶¯£¬ÈÎÎñID: 1_20250828_195611_201
+2025-08-28 19:56:11,467 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:56:11] "POST /async_structure_check HTTP/1.1" 200 -
+2025-08-28 19:56:11,725 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_195611_201, ×´Ì¬: processing
+2025-08-28 19:56:11,726 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: 1_20250828_195611_201, ×´Ì¬: processing
+2025-08-28 19:56:11,737 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: 1_20250828_195611_201, ×´Ì¬: processing, Ê±¼ä: 2025-08-28T19:56:11.726022
+2025-08-28 19:56:11,738 - apis.api_async_structure_check - INFO - ÈÎÎñ 1_20250828_195611_201 ÕıÔÚ´¦ÀíÖĞ...
+2025-08-28 19:56:11,744 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:56:11] "POST /test/callback HTTP/1.1" 200 -
+2025-08-28 19:56:11,751 - apis.api_async_structure_check - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: 1_20250828_195611_201
+2025-08-28 19:56:16,618 - apis.api_async_structure_check - INFO - ³É¹¦ÌáÈ¡ÎÄµµÄÚÈİ£¬³¤¶È: 43950 ×Ö·û
+2025-08-28 19:56:17,597 - apis.api_async_structure_check - INFO - ¿ªÊ¼¹¹½¨Ç¶ÈëÏòÁ¿£¬»º´æÄ¿Â¼: cache\scheme_1_551dcfe4
+2025-08-28 19:56:17,600 - apis.api_async_structure_check - INFO - Ç¶ÈëÏòÁ¿¹¹½¨Íê³É£¬plan_id: 27cc83ca3d1f
+2025-08-28 19:56:17,600 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 1£¬²éÑ¯: µÚ1ÕÂ 1 ¹¤³Ì¸Å¿ö 1.1 ¹¤³Ì¼ò½é 1.1£¨1£© ¹¤³ÌÏîÄ¿¼ò½é 1.1£¨2£© ¹¤³Ì¹æÄ£ 1.2 ×ÔÈ»µØÀíÌØÕ÷
+2025-08-28 19:56:18,468 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:56:18,501 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 1 Ê§°Ü: 
+2025-08-28 19:56:18,504 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 887, in perform_chapter_by_chapter_structure_check
+    raise search_error
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 878, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=search_top_k)
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:56:18,504 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 2£¬²éÑ¯: µÚ2ÕÂ 2 ±àÖÆËµÃ÷ 2.1 ±àÖÆÒÀ¾İ 2.2 ±àÖÆÔ­Ôò 2.3 ±àÖÆ·¶Î§
+2025-08-28 19:56:18,814 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:56:18,831 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 2 Ê§°Ü: 
+2025-08-28 19:56:18,831 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 887, in perform_chapter_by_chapter_structure_check
+    raise search_error
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 878, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=search_top_k)
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:56:18,832 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 3£¬²éÑ¯: µÚ3ÕÂ 3 Ê©¹¤¼Æ»® 3.1 Ê©¹¤×ÜÌå²¿Êğ 3.2 ½ø¶È¼Æ»® 3.3 ²ÄÁÏÉè±¸¼Æ»® 3.3.1 Ö÷Òª»úĞµÉè±¸×¼±¸Çé¿ö
+2025-08-28 19:56:19,137 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:56:19,149 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 3 Ê§°Ü: 
+2025-08-28 19:56:19,150 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 887, in perform_chapter_by_chapter_structure_check
+    raise search_error
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 878, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=search_top_k)
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:56:19,151 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 4£¬²éÑ¯: µÚ4ÕÂ 4 Ê©¹¤¹¤ÒÕ¼¼Êõ 4.1 ·½°¸±ÈÑ¡ 4.2 ¹¤ÒÕÁ÷³Ì 4.2.1 **Ê©¹¤¹¤ÒÕ 4.2.2 **Ê©¹¤¹¤ÒÕ
+2025-08-28 19:56:19,533 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:56:19,550 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 4 Ê§°Ü: 
+2025-08-28 19:56:19,551 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 887, in perform_chapter_by_chapter_structure_check
+    raise search_error
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 878, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=search_top_k)
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:56:19,551 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 5£¬²éÑ¯: µÚ5ÕÂ 5 Ê©¹¤¹ÜÀí¼°×÷ÒµÈËÔ±Åä±¸ºÍ·Ö¹¤ 5.1 Ê©¹¤¹ÜÀíÈËÔ±Åä±¸ 5.2 ×¨Ö°°²È«Éú²ú¹ÜÀíÈËÔ± 5.3 ÌØÖÖ×÷ÒµÈËÔ± 5.4 ÆäËû×÷ÒµÈËÔ±Åä±¸
+2025-08-28 19:56:20,115 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:56:20,140 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 5 Ê§°Ü: 
+2025-08-28 19:56:20,141 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 887, in perform_chapter_by_chapter_structure_check
+    raise search_error
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 878, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=search_top_k)
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:56:20,141 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 6£¬²éÑ¯: µÚ6ÕÂ 6 ÑéÊÕÒªÇó 6.1 ÑéÊÕ±ê×¼ 6.2 ÑéÊÕÄÚÈİ 6.3 ÑéÊÕ³ÌĞò 6.4 ÑéÊÕÈËÔ±
+2025-08-28 19:56:20,737 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:56:20,767 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 6 Ê§°Ü: 
+2025-08-28 19:56:20,768 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 887, in perform_chapter_by_chapter_structure_check
+    raise search_error
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 878, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=search_top_k)
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:56:20,769 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 7£¬²éÑ¯: µÚ7ÕÂ 7 Ê©¹¤°²È«±£Ö¤´ëÊ© 7.1 °²È«±£Ö¤ÌåÏµ 7.1.1 ÏîÄ¿°²È«Éú²ú×éÖ¯»ú¹¹Í¼¼°°²È«±£Ö¤ÌåÏµÍ¼ 7.1.2 ÏîÄ¿Ö÷Òª¹ÜÀíÈËÔ±°²È«Ö°Ôğ 7.2 Î£ÏÕÔ´±æÊ¶
+2025-08-28 19:56:21,192 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:56:21,216 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 7 Ê§°Ü: 
+2025-08-28 19:56:21,216 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 887, in perform_chapter_by_chapter_structure_check
+    raise search_error
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 878, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=search_top_k)
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:56:21,217 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 8£¬²éÑ¯: µÚ8ÕÂ 8 Ê©¹¤ÖÊÁ¿±£Ö¤´ëÊ© 8.1 ÖÊÁ¿×éÖ¯»ú¹¹Í¼¼°ÖÊÁ¿±£Ö¤ÌåÏµÍ¼ 8.2 ÖÊÁ¿¿ØÖÆÒªµã 8.3 Ê©¹¤Í¨²¡¹Ü¿Ø´ëÊ©
+2025-08-28 19:56:21,523 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:56:21,548 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 8 Ê§°Ü: 
+2025-08-28 19:56:21,549 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 887, in perform_chapter_by_chapter_structure_check
+    raise search_error
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 878, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=search_top_k)
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:56:21,558 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 9£¬²éÑ¯: µÚ9ÕÂ 9 »·Ë®±£±£Ö¤´ëÊ© 9.1 »·Ë®±£±£Ö¤ÌåÏµ 9.1.1 »·Ë®±£×éÖ¯»ú¹¹Í¼¼°±£Ö¤ÌåÏµÍ¼ 9.1.2 ÏîÄ¿Ö÷Òª¹ÜÀíÈËÔ±»·±£Ö°Ôğ 9.2 »·Ë®±£·çÏÕ
+2025-08-28 19:56:21,864 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:56:21,884 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 9 Ê§°Ü: 
+2025-08-28 19:56:21,886 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 887, in perform_chapter_by_chapter_structure_check
+    raise search_error
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 878, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=search_top_k)
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:56:21,887 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 10£¬²éÑ¯: µÚ10ÕÂ 10 ÆäËû±£Ö¤´ëÊ© 10.1 Ö°Òµ½¡¿µ±£Ö¤´ëÊ© 10.2 ÎÄÃ÷Ê©¹¤±£Ö¤´ëÊ©
+2025-08-28 19:56:22,200 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:56:22,222 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 10 Ê§°Ü: 
+2025-08-28 19:56:22,223 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 887, in perform_chapter_by_chapter_structure_check
+    raise search_error
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 878, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=search_top_k)
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:56:22,224 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 11£¬²éÑ¯: µÚ11ÕÂ 11 Ó¦¼±´¦ÖÃ´ëÊ© 11.1 Ó¦¼±Ô¤°¸µÄ·½ÕëºÍÔ­Ôò 11.2 Ó¦¼±¾ÈÔ®×éÖ¯ÌåÏµ 11.3 Ó¦¼±×éÖ¯»ú¹¹¸÷²¿ÃÅ³ÉÔ±¼°Ö°Ôğ 11.4 Ó¦¼±ÏìÓ¦¼°ÊÂ¹Ê±¨¸æ³ÌĞò
+2025-08-28 19:56:22,595 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:56:22,617 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 11 Ê§°Ü: 
+2025-08-28 19:56:22,618 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 887, in perform_chapter_by_chapter_structure_check
+    raise search_error
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 878, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=search_top_k)
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:56:22,619 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 12£¬²éÑ¯: µÚ12ÕÂ 12 ¼ÆËãÊé¼°Ïà¹ØÊ©¹¤Í¼Ö½ 12.1 Éè¼ÆÍ¼Ö½ 12.2 ¼ÆËãÊé 12.3 Ïà¹ØÈËÔ±×ÊÖÊÖ¤¼ş 12.4 Ïà¹ØÑéÊÕ
+2025-08-28 19:56:23,220 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 19:56:23,223 - apis.api_async_structure_check - ERROR - ¼ìË÷ÕÂ½Ú 12 Ê§°Ü: 
+2025-08-28 19:56:23,223 - apis.api_async_structure_check - ERROR - Òì³£ÏêÇé: Traceback (most recent call last):
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 887, in perform_chapter_by_chapter_structure_check
+    raise search_error
+  File "X:\PycharmProject\bim\check_backend_local\apis\api_async_structure_check.py", line 878, in perform_chapter_by_chapter_structure_check
+    similar_chunks_results = auditor.search_similar_chunks(chapter_query, top_k=search_top_k)
+  File "X:\PycharmProject\bim\check_backend_local\objs\PlanAuditor.py", line 231, in search_similar_chunks
+    distances, indices = self.faiss_index.search(query_vec, top_k)
+  File "X:\Pycharm\Anaconda\envs\weak_check\lib\site-packages\faiss\class_wrappers.py", line 329, in replacement_search
+    assert d == self.d
+AssertionError
+
+2025-08-28 19:56:23,403 - db.models - INFO - ÅúÁ¿²åÈë116Ìõ¼ì²éÏî¼ÇÂ¼³É¹¦
+2025-08-28 19:56:23,430 - db.dao - INFO - ±£´æ½á¹¹¼ì²é½á¹û³É¹¦: 1_20250828_195611_201
+2025-08-28 19:56:23,671 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_195611_201, ×´Ì¬: success
+2025-08-28 19:56:23,672 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: 1_20250828_195611_201, ×´Ì¬: success
+2025-08-28 19:56:23,676 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: 1_20250828_195611_201, ×´Ì¬: success, Ê±¼ä: 2025-08-28T19:56:23.672725
+2025-08-28 19:56:23,677 - apis.api_async_structure_check - INFO - ÈÎÎñ 1_20250828_195611_201 Ö´ĞĞ³É¹¦:
+2025-08-28 19:56:23,677 - apis.api_async_structure_check - INFO -   - ×ÜÏîÄ¿Êı: 116
+2025-08-28 19:56:23,678 - apis.api_async_structure_check - INFO -   - ÍêÕûÏîÄ¿Êı: 0
+2025-08-28 19:56:23,678 - apis.api_async_structure_check - INFO -   - È±Ê§ÏîÄ¿Êı: 0
+2025-08-28 19:56:23,678 - apis.api_async_structure_check - INFO -   - ²¿·ÖÍêÕûÏîÄ¿Êı: 0
+2025-08-28 19:56:23,678 - apis.api_async_structure_check - INFO -   - ÍêÕûĞÔ±ÈÀı: 0.0%
+2025-08-28 19:56:23,679 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 19:56:23] "POST /test/callback HTTP/1.1" 200 -
+2025-08-28 19:56:23,680 - apis.api_async_structure_check - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: 1_20250828_195611_201
+2025-08-28 19:56:23,681 - apis.api_async_structure_check - INFO - ½á¹¹¼ì²éÍê³É£¬ÈÎÎñID: 1_20250828_195611_201
+2025-08-28 19:56:39,878 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 19:56:39,890 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 19:56:39,891 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 20:00:31,087 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 20:00:31,106 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 20:00:35,033 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 20:00:35,034 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 20:00:35,345 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 20:00:35,482 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 20:00:35,534 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 20:00:35,561 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 20:00:35,632 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 20:00:35,657 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 20:00:35,713 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 20:00:35,740 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 20:00:35,795 - db.models - INFO - ´´½¨document_references±í³É¹¦
+2025-08-28 20:00:35,820 - db.models - INFO - ±í document_references ´´½¨³É¹¦
+2025-08-28 20:00:35,821 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 20:00:35,821 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 20:00:35,821 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 20:00:35,822 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 20:00:35,822 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-28 20:00:35,849 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-28 20:00:35,849 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 20:00:37,345 - db.dao - INFO - ´´½¨Òì²½ÈÎÎñ³É¹¦: 1_20250828_200037_269
+2025-08-28 20:00:37,422 - db.dao - INFO - ±£´æÎÄµµÒıÓÃ³É¹¦: toc_list.jsonl
+2025-08-28 20:00:37,502 - db.dao - INFO - ±£´æÎÄµµÒıÓÃ³É¹¦: plan1.docx
+2025-08-28 20:00:37,503 - apis.api_async_structure_check - INFO - ÈÎÎñºÍÎÄµµĞÅÏ¢ÒÑ±£´æµ½Êı¾İ¿â£¬ÈÎÎñID: 1_20250828_200037_269
+2025-08-28 20:00:37,505 - apis.api_async_structure_check - INFO - ¿ªÊ¼Òì²½Ö´ĞĞ½á¹¹¼ì²é£¬ÈÎÎñID: 1_20250828_200037_269
+2025-08-28 20:00:37,505 - apis.api_async_structure_check - INFO - Òì²½½á¹¹¼ì²éÈÎÎñÒÑÆô¶¯£¬ÈÎÎñID: 1_20250828_200037_269
+2025-08-28 20:00:37,508 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 20:00:37] "POST /async_structure_check HTTP/1.1" 200 -
+2025-08-28 20:00:37,751 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_200037_269, ×´Ì¬: processing
+2025-08-28 20:00:37,752 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: 1_20250828_200037_269, ×´Ì¬: processing
+2025-08-28 20:00:37,764 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: 1_20250828_200037_269, ×´Ì¬: processing, Ê±¼ä: 2025-08-28T20:00:37.752443
+2025-08-28 20:00:37,765 - apis.api_async_structure_check - INFO - ÈÎÎñ 1_20250828_200037_269 ÕıÔÚ´¦ÀíÖĞ...
+2025-08-28 20:00:37,767 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 20:00:37] "POST /test/callback HTTP/1.1" 200 -
+2025-08-28 20:00:37,773 - apis.api_async_structure_check - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: 1_20250828_200037_269
+2025-08-28 20:00:43,492 - apis.api_async_structure_check - INFO - ³É¹¦ÌáÈ¡ÎÄµµÄÚÈİ£¬³¤¶È: 43950 ×Ö·û
+2025-08-28 20:00:44,516 - apis.api_async_structure_check - INFO - ¿ªÊ¼¹¹½¨Ç¶ÈëÏòÁ¿£¬»º´æÄ¿Â¼: cache\scheme_1_551dcfe4
+2025-08-28 20:00:48,048 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:48,637 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:49,252 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:50,111 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:50,737 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:51,529 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:52,448 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:53,577 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:54,257 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:54,815 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:55,773 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:56,244 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:56,730 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:57,208 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:57,681 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:58,181 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:58,714 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:59,310 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:00:59,942 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:00,673 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:01,344 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:02,436 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:02,973 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:03,893 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:04,491 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:05,125 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:05,765 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:06,263 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:06,752 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:07,298 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:07,886 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:08,482 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:10,153 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:11,252 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:11,858 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:12,435 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:13,407 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:13,994 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:14,683 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:15,273 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:15,926 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:16,857 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:17,434 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:18,376 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:18,890 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:19,692 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:20,064 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:20,455 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:20,892 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:21,261 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:21,677 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:22,343 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:23,297 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:23,665 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:24,557 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:24,902 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:25,343 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:25,919 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:26,347 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:27,556 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:27,984 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:28,346 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:28,782 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:36,929 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:37,401 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:37,824 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:38,252 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:38,646 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:38,982 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:39,377 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:39,711 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:40,242 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:40,583 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:41,010 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:41,423 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:41,935 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:42,358 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:42,711 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:43,169 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:43,566 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:43,935 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:44,444 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:44,830 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:45,529 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:46,032 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:46,454 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:46,821 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:47,344 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:47,775 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:48,153 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:48,617 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:49,028 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:49,407 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:49,786 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:50,194 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:50,562 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:50,975 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:51,416 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:51,823 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:52,187 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:52,563 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:53,283 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:53,713 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:54,126 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:54,493 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:01:55,152 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:03,093 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:03,500 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:04,342 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:04,779 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:05,253 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:05,763 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:06,152 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:06,592 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:07,162 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:15,612 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:16,069 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:16,497 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:16,839 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:17,270 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:17,716 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:18,370 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:18,711 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:19,442 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:19,889 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:20,319 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:20,660 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:21,091 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:21,580 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:21,915 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:22,371 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:22,945 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:23,307 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:23,817 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:24,233 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:24,710 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:25,194 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:25,698 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:34,300 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:34,777 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:35,210 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:35,742 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:36,245 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:36,661 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:37,065 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:37,510 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:37,823 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:38,227 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:46,302 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:46,915 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:47,397 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:47,831 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:48,183 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:48,611 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:49,050 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:49,501 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:49,850 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:50,985 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:51,332 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:51,793 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:52,189 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:52,895 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:53,271 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:53,713 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:54,055 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:54,460 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:55,243 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:55,301 - apis.api_async_structure_check - INFO - Ç¶ÈëÏòÁ¿¹¹½¨Íê³É£¬plan_id: 27cc83ca3d1f
+2025-08-28 20:02:55,301 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 1£¬²éÑ¯: µÚ1ÕÂ 1 ¹¤³Ì¸Å¿ö 1.1 ¹¤³Ì¼ò½é 1.1£¨1£© ¹¤³ÌÏîÄ¿¼ò½é 1.1£¨2£© ¹¤³Ì¹æÄ£ 1.2 ×ÔÈ»µØÀíÌØÕ÷
+2025-08-28 20:02:55,634 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:55,688 - apis.api_async_structure_check - INFO - ÕÂ½Ú 1 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:02:55,689 - apis.api_async_structure_check - INFO - ÕÂ½Ú 1 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:02:55,690 - apis.api_async_structure_check - INFO - ÕÂ½Ú 1 Ö¤¾İÎÄ±¾³¤¶È: 2637
+2025-08-28 20:02:55,690 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 1
+2025-08-28 20:02:55,690 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 21, Ö¤¾İ³¤¶È: 2637
+2025-08-28 20:02:55,691 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 21 ¸öÏîÄ¿
+2025-08-28 20:02:55,691 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:02:56,139 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:02:56,140 - openai._base_client - INFO - Retrying request to /chat/completions in 0.470987 seconds
+2025-08-28 20:02:56,904 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:02:56,904 - openai._base_client - INFO - Retrying request to /chat/completions in 0.776857 seconds
+2025-08-28 20:02:57,971 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:02:57,983 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 176
+2025-08-28 20:02:57,983 - apis.api_async_structure_check - INFO - ÕÂ½Ú 1 AI·ÖÎöÍê³É
+2025-08-28 20:02:57,991 - apis.api_async_structure_check - INFO - ÕÂ½Ú 1 ´¦ÀíÍê³É£¬¹² 21 ¸öÏîÄ¿
+2025-08-28 20:02:57,991 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 2£¬²éÑ¯: µÚ2ÕÂ 2 ±àÖÆËµÃ÷ 2.1 ±àÖÆÒÀ¾İ 2.2 ±àÖÆÔ­Ôò 2.3 ±àÖÆ·¶Î§
+2025-08-28 20:02:58,299 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:02:58,320 - apis.api_async_structure_check - INFO - ÕÂ½Ú 2 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:02:58,320 - apis.api_async_structure_check - INFO - ÕÂ½Ú 2 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:02:58,320 - apis.api_async_structure_check - INFO - ÕÂ½Ú 2 Ö¤¾İÎÄ±¾³¤¶È: 2724
+2025-08-28 20:02:58,320 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 2
+2025-08-28 20:02:58,321 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 4, Ö¤¾İ³¤¶È: 2724
+2025-08-28 20:02:58,321 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 4 ¸öÏîÄ¿
+2025-08-28 20:02:58,321 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:02:58,566 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:02:58,566 - openai._base_client - INFO - Retrying request to /chat/completions in 0.441844 seconds
+2025-08-28 20:02:59,287 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:02:59,288 - openai._base_client - INFO - Retrying request to /chat/completions in 0.998382 seconds
+2025-08-28 20:03:00,535 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:03:00,536 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 176
+2025-08-28 20:03:00,537 - apis.api_async_structure_check - INFO - ÕÂ½Ú 2 AI·ÖÎöÍê³É
+2025-08-28 20:03:00,540 - apis.api_async_structure_check - INFO - ÕÂ½Ú 2 ´¦ÀíÍê³É£¬¹² 4 ¸öÏîÄ¿
+2025-08-28 20:03:00,541 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 3£¬²éÑ¯: µÚ3ÕÂ 3 Ê©¹¤¼Æ»® 3.1 Ê©¹¤×ÜÌå²¿Êğ 3.2 ½ø¶È¼Æ»® 3.3 ²ÄÁÏÉè±¸¼Æ»® 3.3.1 Ö÷Òª»úĞµÉè±¸×¼±¸Çé¿ö
+2025-08-28 20:03:00,911 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:03:00,928 - apis.api_async_structure_check - INFO - ÕÂ½Ú 3 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:03:00,929 - apis.api_async_structure_check - INFO - ÕÂ½Ú 3 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:03:00,929 - apis.api_async_structure_check - INFO - ÕÂ½Ú 3 Ö¤¾İÎÄ±¾³¤¶È: 2825
+2025-08-28 20:03:00,930 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 3
+2025-08-28 20:03:00,930 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 6, Ö¤¾İ³¤¶È: 2825
+2025-08-28 20:03:00,930 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 6 ¸öÏîÄ¿
+2025-08-28 20:03:00,930 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:03:01,196 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:03:01,196 - openai._base_client - INFO - Retrying request to /chat/completions in 0.480221 seconds
+2025-08-28 20:03:01,947 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:03:01,947 - openai._base_client - INFO - Retrying request to /chat/completions in 0.753438 seconds
+2025-08-28 20:03:02,967 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:03:02,968 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 176
+2025-08-28 20:03:02,968 - apis.api_async_structure_check - INFO - ÕÂ½Ú 3 AI·ÖÎöÍê³É
+2025-08-28 20:03:02,970 - apis.api_async_structure_check - INFO - ÕÂ½Ú 3 ´¦ÀíÍê³É£¬¹² 6 ¸öÏîÄ¿
+2025-08-28 20:03:02,971 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 4£¬²éÑ¯: µÚ4ÕÂ 4 Ê©¹¤¹¤ÒÕ¼¼Êõ 4.1 ·½°¸±ÈÑ¡ 4.2 ¹¤ÒÕÁ÷³Ì 4.2.1 **Ê©¹¤¹¤ÒÕ 4.2.2 **Ê©¹¤¹¤ÒÕ
+2025-08-28 20:03:03,339 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:03:03,372 - apis.api_async_structure_check - INFO - ÕÂ½Ú 4 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:03:03,373 - apis.api_async_structure_check - INFO - ÕÂ½Ú 4 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:03:03,373 - apis.api_async_structure_check - INFO - ÕÂ½Ú 4 Ö¤¾İÎÄ±¾³¤¶È: 2626
+2025-08-28 20:03:03,373 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 4
+2025-08-28 20:03:03,373 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 11, Ö¤¾İ³¤¶È: 2626
+2025-08-28 20:03:03,374 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 11 ¸öÏîÄ¿
+2025-08-28 20:03:03,374 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:03:03,636 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:03:03,636 - openai._base_client - INFO - Retrying request to /chat/completions in 0.453329 seconds
+2025-08-28 20:03:04,368 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:03:04,369 - openai._base_client - INFO - Retrying request to /chat/completions in 0.842361 seconds
+2025-08-28 20:03:05,468 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:03:05,469 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 176
+2025-08-28 20:03:05,470 - apis.api_async_structure_check - INFO - ÕÂ½Ú 4 AI·ÖÎöÍê³É
+2025-08-28 20:03:05,473 - apis.api_async_structure_check - INFO - ÕÂ½Ú 4 ´¦ÀíÍê³É£¬¹² 11 ¸öÏîÄ¿
+2025-08-28 20:03:05,473 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 5£¬²éÑ¯: µÚ5ÕÂ 5 Ê©¹¤¹ÜÀí¼°×÷ÒµÈËÔ±Åä±¸ºÍ·Ö¹¤ 5.1 Ê©¹¤¹ÜÀíÈËÔ±Åä±¸ 5.2 ×¨Ö°°²È«Éú²ú¹ÜÀíÈËÔ± 5.3 ÌØÖÖ×÷ÒµÈËÔ± 5.4 ÆäËû×÷ÒµÈËÔ±Åä±¸
+2025-08-28 20:03:05,921 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:03:05,954 - apis.api_async_structure_check - INFO - ÕÂ½Ú 5 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:03:05,954 - apis.api_async_structure_check - INFO - ÕÂ½Ú 5 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:03:05,954 - apis.api_async_structure_check - INFO - ÕÂ½Ú 5 Ö¤¾İÎÄ±¾³¤¶È: 2894
+2025-08-28 20:03:05,954 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 5
+2025-08-28 20:03:05,954 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 5, Ö¤¾İ³¤¶È: 2894
+2025-08-28 20:03:05,955 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 5 ¸öÏîÄ¿
+2025-08-28 20:03:05,955 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:03:06,231 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:03:06,232 - openai._base_client - INFO - Retrying request to /chat/completions in 0.460354 seconds
+2025-08-28 20:03:06,960 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:03:06,961 - openai._base_client - INFO - Retrying request to /chat/completions in 0.782860 seconds
+2025-08-28 20:03:08,032 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:03:08,034 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 176
+2025-08-28 20:03:08,034 - apis.api_async_structure_check - INFO - ÕÂ½Ú 5 AI·ÖÎöÍê³É
+2025-08-28 20:03:08,036 - apis.api_async_structure_check - INFO - ÕÂ½Ú 5 ´¦ÀíÍê³É£¬¹² 5 ¸öÏîÄ¿
+2025-08-28 20:03:08,037 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 6£¬²éÑ¯: µÚ6ÕÂ 6 ÑéÊÕÒªÇó 6.1 ÑéÊÕ±ê×¼ 6.2 ÑéÊÕÄÚÈİ 6.3 ÑéÊÕ³ÌĞò 6.4 ÑéÊÕÈËÔ±
+2025-08-28 20:03:08,424 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:03:08,427 - apis.api_async_structure_check - INFO - ÕÂ½Ú 6 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:03:08,429 - apis.api_async_structure_check - INFO - ÕÂ½Ú 6 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:03:08,429 - apis.api_async_structure_check - INFO - ÕÂ½Ú 6 Ö¤¾İÎÄ±¾³¤¶È: 2638
+2025-08-28 20:03:08,430 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 6
+2025-08-28 20:03:08,430 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 5, Ö¤¾İ³¤¶È: 2638
+2025-08-28 20:03:08,430 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 5 ¸öÏîÄ¿
+2025-08-28 20:03:08,430 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:03:08,703 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:03:08,706 - openai._base_client - INFO - Retrying request to /chat/completions in 0.498242 seconds
+2025-08-28 20:03:09,467 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:03:09,468 - openai._base_client - INFO - Retrying request to /chat/completions in 0.831511 seconds
+2025-08-28 20:03:10,567 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:03:10,568 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 176
+2025-08-28 20:03:10,569 - apis.api_async_structure_check - INFO - ÕÂ½Ú 6 AI·ÖÎöÍê³É
+2025-08-28 20:03:10,571 - apis.api_async_structure_check - INFO - ÕÂ½Ú 6 ´¦ÀíÍê³É£¬¹² 5 ¸öÏîÄ¿
+2025-08-28 20:03:10,571 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 7£¬²éÑ¯: µÚ7ÕÂ 7 Ê©¹¤°²È«±£Ö¤´ëÊ© 7.1 °²È«±£Ö¤ÌåÏµ 7.1.1 ÏîÄ¿°²È«Éú²ú×éÖ¯»ú¹¹Í¼¼°°²È«±£Ö¤ÌåÏµÍ¼ 7.1.2 ÏîÄ¿Ö÷Òª¹ÜÀíÈËÔ±°²È«Ö°Ôğ 7.2 Î£ÏÕÔ´±æÊ¶
+2025-08-28 20:03:11,019 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:03:11,051 - apis.api_async_structure_check - INFO - ÕÂ½Ú 7 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:03:11,052 - apis.api_async_structure_check - INFO - ÕÂ½Ú 7 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:03:11,052 - apis.api_async_structure_check - INFO - ÕÂ½Ú 7 Ö¤¾İÎÄ±¾³¤¶È: 2840
+2025-08-28 20:03:11,053 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 7
+2025-08-28 20:03:11,053 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 21, Ö¤¾İ³¤¶È: 2840
+2025-08-28 20:03:11,053 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 21 ¸öÏîÄ¿
+2025-08-28 20:03:11,053 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:03:11,342 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 503 Service Temporarily Unavailable"
+2025-08-28 20:03:11,343 - openai._base_client - INFO - Retrying request to /chat/completions in 0.387851 seconds
+2025-08-28 20:03:11,388 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 20:03:11,389 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 20:03:11,391 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-28 20:03:29,892 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-28 20:03:29,911 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-28 20:03:34,193 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-28 20:03:34,194 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-28 20:03:34,496 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-28 20:03:34,572 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-28 20:03:34,619 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-28 20:03:34,643 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-28 20:03:34,691 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-28 20:03:34,717 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-28 20:03:34,765 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-28 20:03:34,788 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-28 20:03:34,840 - db.models - INFO - ´´½¨document_references±í³É¹¦
+2025-08-28 20:03:34,865 - db.models - INFO - ±í document_references ´´½¨³É¹¦
+2025-08-28 20:03:34,865 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 4/4
+2025-08-28 20:03:34,866 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-28 20:03:34,866 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-28 20:03:34,866 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-28 20:03:34,866 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-28 20:03:34,896 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-28 20:03:34,897 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 20:03:37,468 - db.dao - INFO - ´´½¨Òì²½ÈÎÎñ³É¹¦: 1_20250828_200337_387
+2025-08-28 20:03:37,546 - db.dao - INFO - ±£´æÎÄµµÒıÓÃ³É¹¦: toc_list.jsonl
+2025-08-28 20:03:37,623 - db.dao - INFO - ±£´æÎÄµµÒıÓÃ³É¹¦: plan1.docx
+2025-08-28 20:03:37,624 - apis.api_async_structure_check - INFO - ÈÎÎñºÍÎÄµµĞÅÏ¢ÒÑ±£´æµ½Êı¾İ¿â£¬ÈÎÎñID: 1_20250828_200337_387
+2025-08-28 20:03:37,625 - apis.api_async_structure_check - INFO - ¿ªÊ¼Òì²½Ö´ĞĞ½á¹¹¼ì²é£¬ÈÎÎñID: 1_20250828_200337_387
+2025-08-28 20:03:37,625 - apis.api_async_structure_check - INFO - Òì²½½á¹¹¼ì²éÈÎÎñÒÑÆô¶¯£¬ÈÎÎñID: 1_20250828_200337_387
+2025-08-28 20:03:37,627 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 20:03:37] "POST /async_structure_check HTTP/1.1" 200 -
+2025-08-28 20:03:37,862 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_200337_387, ×´Ì¬: processing
+2025-08-28 20:03:37,864 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: 1_20250828_200337_387, ×´Ì¬: processing
+2025-08-28 20:03:37,879 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: 1_20250828_200337_387, ×´Ì¬: processing, Ê±¼ä: 2025-08-28T20:03:37.864919
+2025-08-28 20:03:37,881 - apis.api_async_structure_check - INFO - ÈÎÎñ 1_20250828_200337_387 ÕıÔÚ´¦ÀíÖĞ...
+2025-08-28 20:03:37,890 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 20:03:37] "POST /test/callback HTTP/1.1" 200 -
+2025-08-28 20:03:37,903 - apis.api_async_structure_check - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: 1_20250828_200337_387
+2025-08-28 20:03:42,594 - apis.api_async_structure_check - INFO - ³É¹¦ÌáÈ¡ÎÄµµÄÚÈİ£¬³¤¶È: 43950 ×Ö·û
+2025-08-28 20:03:43,663 - apis.api_async_structure_check - INFO - ¿ªÊ¼¹¹½¨Ç¶ÈëÏòÁ¿£¬»º´æÄ¿Â¼: cache\scheme_1_551dcfe4
+2025-08-28 20:03:43,668 - apis.api_async_structure_check - INFO - Ç¶ÈëÏòÁ¿¹¹½¨Íê³É£¬plan_id: 27cc83ca3d1f
+2025-08-28 20:03:43,669 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 1£¬²éÑ¯: µÚ1ÕÂ 1 ¹¤³Ì¸Å¿ö 1.1 ¹¤³Ì¼ò½é 1.1£¨1£© ¹¤³ÌÏîÄ¿¼ò½é 1.1£¨2£© ¹¤³Ì¹æÄ£ 1.2 ×ÔÈ»µØÀíÌØÕ÷
+2025-08-28 20:03:44,611 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:03:44,667 - apis.api_async_structure_check - INFO - ÕÂ½Ú 1 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:03:44,669 - apis.api_async_structure_check - INFO - ÕÂ½Ú 1 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:03:44,671 - apis.api_async_structure_check - INFO - ÕÂ½Ú 1 Ö¤¾İÎÄ±¾³¤¶È: 2637
+2025-08-28 20:03:44,671 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 1
+2025-08-28 20:03:44,671 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 21, Ö¤¾İ³¤¶È: 2637
+2025-08-28 20:03:44,672 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 21 ¸öÏîÄ¿
+2025-08-28 20:03:44,673 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:03:55,343 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 20:03:55,368 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 1591
+2025-08-28 20:03:55,368 - apis.api_async_structure_check - INFO - ÕÂ½Ú 1 AI·ÖÎöÍê³É
+2025-08-28 20:03:55,378 - apis.api_async_structure_check - INFO - ÕÂ½Ú 1 ´¦ÀíÍê³É£¬¹² 21 ¸öÏîÄ¿
+2025-08-28 20:03:55,379 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 2£¬²éÑ¯: µÚ2ÕÂ 2 ±àÖÆËµÃ÷ 2.1 ±àÖÆÒÀ¾İ 2.2 ±àÖÆÔ­Ôò 2.3 ±àÖÆ·¶Î§
+2025-08-28 20:03:55,776 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:03:55,778 - apis.api_async_structure_check - INFO - ÕÂ½Ú 2 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:03:55,779 - apis.api_async_structure_check - INFO - ÕÂ½Ú 2 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:03:55,779 - apis.api_async_structure_check - INFO - ÕÂ½Ú 2 Ö¤¾İÎÄ±¾³¤¶È: 2706
+2025-08-28 20:03:55,780 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 2
+2025-08-28 20:03:55,780 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 4, Ö¤¾İ³¤¶È: 2706
+2025-08-28 20:03:55,780 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 4 ¸öÏîÄ¿
+2025-08-28 20:03:55,781 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:03:59,384 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 20:03:59,386 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 462
+2025-08-28 20:03:59,387 - apis.api_async_structure_check - INFO - ÕÂ½Ú 2 AI·ÖÎöÍê³É
+2025-08-28 20:03:59,389 - apis.api_async_structure_check - INFO - ÕÂ½Ú 2 ´¦ÀíÍê³É£¬¹² 4 ¸öÏîÄ¿
+2025-08-28 20:03:59,389 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 3£¬²éÑ¯: µÚ3ÕÂ 3 Ê©¹¤¼Æ»® 3.1 Ê©¹¤×ÜÌå²¿Êğ 3.2 ½ø¶È¼Æ»® 3.3 ²ÄÁÏÉè±¸¼Æ»® 3.3.1 Ö÷Òª»úĞµÉè±¸×¼±¸Çé¿ö
+2025-08-28 20:03:59,895 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:03:59,921 - apis.api_async_structure_check - INFO - ÕÂ½Ú 3 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:03:59,922 - apis.api_async_structure_check - INFO - ÕÂ½Ú 3 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:03:59,922 - apis.api_async_structure_check - INFO - ÕÂ½Ú 3 Ö¤¾İÎÄ±¾³¤¶È: 2825
+2025-08-28 20:03:59,922 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 3
+2025-08-28 20:03:59,922 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 6, Ö¤¾İ³¤¶È: 2825
+2025-08-28 20:03:59,922 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 6 ¸öÏîÄ¿
+2025-08-28 20:03:59,923 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:04:09,589 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 20:04:09,596 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 712
+2025-08-28 20:04:09,596 - apis.api_async_structure_check - INFO - ÕÂ½Ú 3 AI·ÖÎöÍê³É
+2025-08-28 20:04:09,599 - apis.api_async_structure_check - INFO - ÕÂ½Ú 3 ´¦ÀíÍê³É£¬¹² 6 ¸öÏîÄ¿
+2025-08-28 20:04:09,599 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 4£¬²éÑ¯: µÚ4ÕÂ 4 Ê©¹¤¹¤ÒÕ¼¼Êõ 4.1 ·½°¸±ÈÑ¡ 4.2 ¹¤ÒÕÁ÷³Ì 4.2.1 **Ê©¹¤¹¤ÒÕ 4.2.2 **Ê©¹¤¹¤ÒÕ
+2025-08-28 20:04:09,983 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:04:10,000 - apis.api_async_structure_check - INFO - ÕÂ½Ú 4 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:04:10,000 - apis.api_async_structure_check - INFO - ÕÂ½Ú 4 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:04:10,001 - apis.api_async_structure_check - INFO - ÕÂ½Ú 4 Ö¤¾İÎÄ±¾³¤¶È: 2626
+2025-08-28 20:04:10,001 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 4
+2025-08-28 20:04:10,001 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 11, Ö¤¾İ³¤¶È: 2626
+2025-08-28 20:04:10,001 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 11 ¸öÏîÄ¿
+2025-08-28 20:04:10,001 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:04:17,172 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 20:04:17,174 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 1099
+2025-08-28 20:04:17,174 - apis.api_async_structure_check - INFO - ÕÂ½Ú 4 AI·ÖÎöÍê³É
+2025-08-28 20:04:17,180 - apis.api_async_structure_check - INFO - ÕÂ½Ú 4 ´¦ÀíÍê³É£¬¹² 11 ¸öÏîÄ¿
+2025-08-28 20:04:17,181 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 5£¬²éÑ¯: µÚ5ÕÂ 5 Ê©¹¤¹ÜÀí¼°×÷ÒµÈËÔ±Åä±¸ºÍ·Ö¹¤ 5.1 Ê©¹¤¹ÜÀíÈËÔ±Åä±¸ 5.2 ×¨Ö°°²È«Éú²ú¹ÜÀíÈËÔ± 5.3 ÌØÖÖ×÷ÒµÈËÔ± 5.4 ÆäËû×÷ÒµÈËÔ±Åä±¸
+2025-08-28 20:04:17,574 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:04:17,599 - apis.api_async_structure_check - INFO - ÕÂ½Ú 5 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:04:17,600 - apis.api_async_structure_check - INFO - ÕÂ½Ú 5 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:04:17,602 - apis.api_async_structure_check - INFO - ÕÂ½Ú 5 Ö¤¾İÎÄ±¾³¤¶È: 2893
+2025-08-28 20:04:17,603 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 5
+2025-08-28 20:04:17,603 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 5, Ö¤¾İ³¤¶È: 2893
+2025-08-28 20:04:17,603 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 5 ¸öÏîÄ¿
+2025-08-28 20:04:17,604 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:04:27,403 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 20:04:27,405 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 625
+2025-08-28 20:04:27,405 - apis.api_async_structure_check - INFO - ÕÂ½Ú 5 AI·ÖÎöÍê³É
+2025-08-28 20:04:27,407 - apis.api_async_structure_check - INFO - ÕÂ½Ú 5 ´¦ÀíÍê³É£¬¹² 5 ¸öÏîÄ¿
+2025-08-28 20:04:27,408 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 6£¬²éÑ¯: µÚ6ÕÂ 6 ÑéÊÕÒªÇó 6.1 ÑéÊÕ±ê×¼ 6.2 ÑéÊÕÄÚÈİ 6.3 ÑéÊÕ³ÌĞò 6.4 ÑéÊÕÈËÔ±
+2025-08-28 20:04:27,853 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:04:27,879 - apis.api_async_structure_check - INFO - ÕÂ½Ú 6 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:04:27,879 - apis.api_async_structure_check - INFO - ÕÂ½Ú 6 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:04:27,879 - apis.api_async_structure_check - INFO - ÕÂ½Ú 6 Ö¤¾İÎÄ±¾³¤¶È: 2603
+2025-08-28 20:04:27,880 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 6
+2025-08-28 20:04:27,880 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 5, Ö¤¾İ³¤¶È: 2603
+2025-08-28 20:04:27,880 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 5 ¸öÏîÄ¿
+2025-08-28 20:04:27,880 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:04:34,259 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 20:04:34,261 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 567
+2025-08-28 20:04:34,261 - apis.api_async_structure_check - INFO - ÕÂ½Ú 6 AI·ÖÎöÍê³É
+2025-08-28 20:04:34,263 - apis.api_async_structure_check - INFO - ÕÂ½Ú 6 ´¦ÀíÍê³É£¬¹² 5 ¸öÏîÄ¿
+2025-08-28 20:04:34,263 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 7£¬²éÑ¯: µÚ7ÕÂ 7 Ê©¹¤°²È«±£Ö¤´ëÊ© 7.1 °²È«±£Ö¤ÌåÏµ 7.1.1 ÏîÄ¿°²È«Éú²ú×éÖ¯»ú¹¹Í¼¼°°²È«±£Ö¤ÌåÏµÍ¼ 7.1.2 ÏîÄ¿Ö÷Òª¹ÜÀíÈËÔ±°²È«Ö°Ôğ 7.2 Î£ÏÕÔ´±æÊ¶
+2025-08-28 20:04:34,628 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:04:34,650 - apis.api_async_structure_check - INFO - ÕÂ½Ú 7 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:04:34,651 - apis.api_async_structure_check - INFO - ÕÂ½Ú 7 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:04:34,651 - apis.api_async_structure_check - INFO - ÕÂ½Ú 7 Ö¤¾İÎÄ±¾³¤¶È: 2840
+2025-08-28 20:04:34,651 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 7
+2025-08-28 20:04:34,651 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 21, Ö¤¾İ³¤¶È: 2840
+2025-08-28 20:04:34,652 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 21 ¸öÏîÄ¿
+2025-08-28 20:04:34,652 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:04:49,906 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 524 Receive timeout from origin"
+2025-08-28 20:04:49,907 - openai._base_client - INFO - Retrying request to /chat/completions in 0.453367 seconds
+2025-08-28 20:05:02,729 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 20:05:02,736 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 1791
+2025-08-28 20:05:02,736 - apis.api_async_structure_check - INFO - ÕÂ½Ú 7 AI·ÖÎöÍê³É
+2025-08-28 20:05:02,743 - apis.api_async_structure_check - INFO - ÕÂ½Ú 7 ´¦ÀíÍê³É£¬¹² 21 ¸öÏîÄ¿
+2025-08-28 20:05:02,744 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 8£¬²éÑ¯: µÚ8ÕÂ 8 Ê©¹¤ÖÊÁ¿±£Ö¤´ëÊ© 8.1 ÖÊÁ¿×éÖ¯»ú¹¹Í¼¼°ÖÊÁ¿±£Ö¤ÌåÏµÍ¼ 8.2 ÖÊÁ¿¿ØÖÆÒªµã 8.3 Ê©¹¤Í¨²¡¹Ü¿Ø´ëÊ©
+2025-08-28 20:05:16,948 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:05:16,965 - apis.api_async_structure_check - INFO - ÕÂ½Ú 8 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:05:16,966 - apis.api_async_structure_check - INFO - ÕÂ½Ú 8 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:05:16,966 - apis.api_async_structure_check - INFO - ÕÂ½Ú 8 Ö¤¾İÎÄ±¾³¤¶È: 2906
+2025-08-28 20:05:16,967 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 8
+2025-08-28 20:05:16,967 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 4, Ö¤¾İ³¤¶È: 2906
+2025-08-28 20:05:16,968 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 4 ¸öÏîÄ¿
+2025-08-28 20:05:16,968 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:05:22,030 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 20:05:22,035 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 586
+2025-08-28 20:05:22,036 - apis.api_async_structure_check - INFO - ÕÂ½Ú 8 AI·ÖÎöÍê³É
+2025-08-28 20:05:22,037 - apis.api_async_structure_check - INFO - ÕÂ½Ú 8 ´¦ÀíÍê³É£¬¹² 4 ¸öÏîÄ¿
+2025-08-28 20:05:22,038 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 9£¬²éÑ¯: µÚ9ÕÂ 9 »·Ë®±£±£Ö¤´ëÊ© 9.1 »·Ë®±£±£Ö¤ÌåÏµ 9.1.1 »·Ë®±£×éÖ¯»ú¹¹Í¼¼°±£Ö¤ÌåÏµÍ¼ 9.1.2 ÏîÄ¿Ö÷Òª¹ÜÀíÈËÔ±»·±£Ö°Ôğ 9.2 »·Ë®±£·çÏÕ
+2025-08-28 20:05:22,434 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:05:22,463 - apis.api_async_structure_check - INFO - ÕÂ½Ú 9 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:05:22,467 - apis.api_async_structure_check - INFO - ÕÂ½Ú 9 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:05:22,468 - apis.api_async_structure_check - INFO - ÕÂ½Ú 9 Ö¤¾İÎÄ±¾³¤¶È: 2690
+2025-08-28 20:05:22,469 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 9
+2025-08-28 20:05:22,470 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 11, Ö¤¾İ³¤¶È: 2690
+2025-08-28 20:05:22,470 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 11 ¸öÏîÄ¿
+2025-08-28 20:05:22,471 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:05:34,900 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 20:05:34,903 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 1069
+2025-08-28 20:05:34,903 - apis.api_async_structure_check - INFO - ÕÂ½Ú 9 AI·ÖÎöÍê³É
+2025-08-28 20:05:34,908 - apis.api_async_structure_check - INFO - ÕÂ½Ú 9 ´¦ÀíÍê³É£¬¹² 11 ¸öÏîÄ¿
+2025-08-28 20:05:34,909 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 10£¬²éÑ¯: µÚ10ÕÂ 10 ÆäËû±£Ö¤´ëÊ© 10.1 Ö°Òµ½¡¿µ±£Ö¤´ëÊ© 10.2 ÎÄÃ÷Ê©¹¤±£Ö¤´ëÊ©
+2025-08-28 20:05:35,273 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:05:35,285 - apis.api_async_structure_check - INFO - ÕÂ½Ú 10 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:05:35,285 - apis.api_async_structure_check - INFO - ÕÂ½Ú 10 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:05:35,286 - apis.api_async_structure_check - INFO - ÕÂ½Ú 10 Ö¤¾İÎÄ±¾³¤¶È: 2976
+2025-08-28 20:05:35,286 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 10
+2025-08-28 20:05:35,286 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 3, Ö¤¾İ³¤¶È: 2976
+2025-08-28 20:05:35,287 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 3 ¸öÏîÄ¿
+2025-08-28 20:05:35,287 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:05:46,290 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 20:05:46,295 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 446
+2025-08-28 20:05:46,295 - apis.api_async_structure_check - INFO - ÕÂ½Ú 10 AI·ÖÎöÍê³É
+2025-08-28 20:05:46,297 - apis.api_async_structure_check - INFO - ÕÂ½Ú 10 ´¦ÀíÍê³É£¬¹² 3 ¸öÏîÄ¿
+2025-08-28 20:05:46,297 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 11£¬²éÑ¯: µÚ11ÕÂ 11 Ó¦¼±´¦ÖÃ´ëÊ© 11.1 Ó¦¼±Ô¤°¸µÄ·½ÕëºÍÔ­Ôò 11.2 Ó¦¼±¾ÈÔ®×éÖ¯ÌåÏµ 11.3 Ó¦¼±×éÖ¯»ú¹¹¸÷²¿ÃÅ³ÉÔ±¼°Ö°Ôğ 11.4 Ó¦¼±ÏìÓ¦¼°ÊÂ¹Ê±¨¸æ³ÌĞò
+2025-08-28 20:05:46,708 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:05:46,729 - apis.api_async_structure_check - INFO - ÕÂ½Ú 11 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:05:46,730 - apis.api_async_structure_check - INFO - ÕÂ½Ú 11 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:05:46,731 - apis.api_async_structure_check - INFO - ÕÂ½Ú 11 Ö¤¾İÎÄ±¾³¤¶È: 2643
+2025-08-28 20:05:46,732 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 11
+2025-08-28 20:05:46,732 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 20, Ö¤¾İ³¤¶È: 2643
+2025-08-28 20:05:46,733 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 20 ¸öÏîÄ¿
+2025-08-28 20:05:46,733 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:06:01,987 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 524 Receive timeout from origin"
+2025-08-28 20:06:01,988 - openai._base_client - INFO - Retrying request to /chat/completions in 0.422096 seconds
+2025-08-28 20:06:17,720 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 524 Receive timeout from origin"
+2025-08-28 20:06:17,720 - openai._base_client - INFO - Retrying request to /chat/completions in 0.969569 seconds
+2025-08-28 20:06:33,985 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 524 Receive timeout from origin"
+2025-08-28 20:06:33,988 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 23
+2025-08-28 20:06:33,989 - apis.api_async_structure_check - INFO - ÕÂ½Ú 11 AI·ÖÎöÍê³É
+2025-08-28 20:06:33,995 - apis.api_async_structure_check - INFO - ÕÂ½Ú 11 ´¦ÀíÍê³É£¬¹² 20 ¸öÏîÄ¿
+2025-08-28 20:06:33,995 - apis.api_async_structure_check - INFO - ¿ªÊ¼¼ìË÷ÕÂ½Ú 12£¬²éÑ¯: µÚ12ÕÂ 12 ¼ÆËãÊé¼°Ïà¹ØÊ©¹¤Í¼Ö½ 12.1 Éè¼ÆÍ¼Ö½ 12.2 ¼ÆËãÊé 12.3 Ïà¹ØÈËÔ±×ÊÖÊÖ¤¼ş 12.4 Ïà¹ØÑéÊÕ
+2025-08-28 20:06:34,393 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-28 20:06:34,408 - apis.api_async_structure_check - INFO - ÕÂ½Ú 12 ¼ìË÷µ½ 15 ¸ö½á¹û
+2025-08-28 20:06:34,409 - apis.api_async_structure_check - INFO - ÕÂ½Ú 12 ¹ıÂËºóÓĞĞ§½á¹û: 15 ¸ö
+2025-08-28 20:06:34,409 - apis.api_async_structure_check - INFO - ÕÂ½Ú 12 Ö¤¾İÎÄ±¾³¤¶È: 2962
+2025-08-28 20:06:34,409 - apis.api_async_structure_check - INFO - ¿ªÊ¼AI·ÖÎöÕÂ½Ú 12
+2025-08-28 20:06:34,409 - apis.api_async_structure_check - INFO - ¿ªÊ¼AIÅúÁ¿·ÖÎö£¬ÏîÄ¿Êı: 5, Ö¤¾İ³¤¶È: 2962
+2025-08-28 20:06:34,409 - apis.api_async_structure_check - INFO - ÕÂ½ÚĞÅÏ¢Êı¾İ¹¹½¨Íê³É: 5 ¸öÏîÄ¿
+2025-08-28 20:06:34,410 - apis.api_async_structure_check - INFO - ¿ªÊ¼µ÷ÓÃLLM½øĞĞAI·ÖÎö
+2025-08-28 20:06:40,013 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 20:06:40,016 - apis.api_async_structure_check - INFO - LLM·ÖÎöÍê³É£¬ÏìÓ¦³¤¶È: 657
+2025-08-28 20:06:40,017 - apis.api_async_structure_check - INFO - ÕÂ½Ú 12 AI·ÖÎöÍê³É
+2025-08-28 20:06:40,018 - apis.api_async_structure_check - INFO - ÕÂ½Ú 12 ´¦ÀíÍê³É£¬¹² 5 ¸öÏîÄ¿
+2025-08-28 20:06:40,270 - db.models - INFO - ÅúÁ¿²åÈë116Ìõ¼ì²éÏî¼ÇÂ¼³É¹¦
+2025-08-28 20:06:40,299 - db.dao - INFO - ±£´æ½á¹¹¼ì²é½á¹û³É¹¦: 1_20250828_200337_387
+2025-08-28 20:06:40,517 - apis.api_async_structure_check - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: 1_20250828_200337_387, ×´Ì¬: success
+2025-08-28 20:06:40,518 - apis.api_async_structure_check - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: 1_20250828_200337_387, ×´Ì¬: success
+2025-08-28 20:06:40,529 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: 1_20250828_200337_387, ×´Ì¬: success, Ê±¼ä: 2025-08-28T20:06:40.518189
+2025-08-28 20:06:40,530 - apis.api_async_structure_check - INFO - ÈÎÎñ 1_20250828_200337_387 Ö´ĞĞ³É¹¦:
+2025-08-28 20:06:40,530 - apis.api_async_structure_check - INFO -   - ×ÜÏîÄ¿Êı: 116
+2025-08-28 20:06:40,531 - apis.api_async_structure_check - INFO -   - ÍêÕûÏîÄ¿Êı: 49
+2025-08-28 20:06:40,531 - apis.api_async_structure_check - INFO -   - È±Ê§ÏîÄ¿Êı: 8
+2025-08-28 20:06:40,531 - apis.api_async_structure_check - INFO -   - ²¿·ÖÍêÕûÏîÄ¿Êı: 59
+2025-08-28 20:06:40,531 - apis.api_async_structure_check - INFO -   - ÍêÕûĞÔ±ÈÀı: 42.24%
+2025-08-28 20:06:40,533 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 20:06:40] "POST /test/callback HTTP/1.1" 200 -
+2025-08-28 20:06:40,535 - apis.api_async_structure_check - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: 1_20250828_200337_387
+2025-08-28 20:06:40,536 - apis.api_async_structure_check - INFO - ½á¹¹¼ì²éÍê³É£¬ÈÎÎñID: 1_20250828_200337_387
+2025-08-28 20:09:07,856 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-28 20:09:07,857 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-28 20:09:07,857 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ

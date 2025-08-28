@@ -37,7 +37,7 @@ upload_plan_swagger = {
             'in': 'formData',
             'type': 'string',
             'required': False,
-            'default': 'http://localhost:11434/v1/',
+            'default': 'http://59.77.7.24:11434/v1/',
             'description': 'OpenAI API基础URL'
         }
     ],
@@ -102,7 +102,7 @@ batch_check_swagger = {
             'in': 'formData',
             'type': 'string',
             'required': False,
-            'default': 'http://localhost:11434/v1/',
+            'default': 'http://59.77.7.24:11434/v1/',
             'description': 'OpenAI API基础URL'
         },
         {
@@ -731,7 +731,7 @@ cite_check_swagger = {
             'in': 'formData',
             'type': 'string',
             'required': False,
-            'default': 'http://localhost:11434/v1/',
+            'default': 'http://59.77.7.24:11434/v1/',
             'description': 'OpenAI API基础URL'
         },
         {
@@ -892,7 +892,7 @@ structure_check_swagger = {
             'in': 'formData',
             'type': 'string',
             'required': False,
-            'default': 'http://localhost:11434/v1/',
+            'default': 'http://59.77.7.24:11434/v1/',
             'description': 'OpenAI API基础URL'
         },
         {
