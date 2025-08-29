@@ -40,7 +40,7 @@ logger = logging.getLogger(__name__)
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'docx', 'doc', 'txt', 'pdf', 'json', 'jsonl'}
 CACHE_DIR = 'cache'
-CALLBACK_URL = '/test/callback'  # 本地测试回调接口地址
+CALLBACK_URL = '/test/structure/callback'  # 本地测试回调接口地址
 DEFAULT_CALLBACK_BASE_URL = 'http://127.0.0.1:5000'  # 默认本地回调基础URL
 
 # 确保目录存在
@@ -1308,7 +1308,7 @@ def extract_item_result_from_chapter_analysis(item_id, item, chapter_analysis, e
         return simple_structure_check_single(item, evidence_text, item_id)
 
 # 本地测试回调接口
-@api_async_structure_check.route('/test/callback', methods=['POST'])
+@api_async_structure_check.route('/test/structure/callback', methods=['POST'])
 def test_callback():
     """
     本地测试回调接口

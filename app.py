@@ -60,6 +60,14 @@ swagger_template = {
             "description": "异步文档结构完整性检查接口"
         },
         {
+            "name": "异步内容检查",
+            "description": "异步内容检查接口"
+        },
+        {
+            "name": "异步引用检查",
+            "description": "异步引用检查接口"
+        },
+        {
             "name": "文件管理",
             "description": "文件列表、删除、上传文件夹管理接口"
         },
@@ -79,10 +87,14 @@ swagger = Swagger(app, config=swagger_config, template=swagger_template)
 # 导入API蓝图
 from apis.api_ra_check import api_ra_check
 from apis.api_async_structure_check import api_async_structure_check
+from apis.api_content_check_async import api_content_check_async
+from apis.api_cite_check_async import api_cite_check_async
 
 # 注册蓝图
 app.register_blueprint(api_ra_check, url_prefix="/")
 app.register_blueprint(api_async_structure_check, url_prefix="/")
+app.register_blueprint(api_content_check_async, url_prefix="/")
+app.register_blueprint(api_cite_check_async, url_prefix="/")
 
 # 初始化CORS
 cors = CORS(app, resources={r"/*": {"origins": "*"}})

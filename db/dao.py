@@ -6,7 +6,7 @@ import logging
 from datetime import datetime, timedelta
 from typing import List, Optional, Dict, Any, Tuple
 from db.connection import get_db_connection
-from db.models import AsyncTask, StructureCheckResult, StructureCheckItem, DocumentReference
+from db.models import AsyncTask, StructureCheckResult, StructureCheckItem, DocumentReference, ContentCheckResult, ContentCheckItem, CiteCheckResult, CiteCheckItem
 
 logger = logging.getLogger(__name__)
 
@@ -436,4 +436,198 @@ class ReportDAO:
                     
         except Exception as e:
             logger.error(f"获取质量趋势报告异常: {str(e)}")
+            return {}
+
+class ContentCheckDAO:
+    """内容检查数据访问对象"""
+    
+    @staticmethod
+    def save_check_result(task_id: str, result_data: Dict) -> bool:
+        """保存内容检查结果"""
+        try:
+            summary = result_data.get('summary', {})
+            
+            # 保存主结果
+            result = ContentCheckResult(
+                task_id=task_id,
+                document_filename=result_data.get('document_filename', ''),
+                checklist_filename=result_data.get('checklist_filename', ''),
+                plan_id=result_data.get('plan_id', ''),
+                upload_folder=result_data.get('upload_folder', ''),
+                total_items=summary.get('total_items', 0),
+                compliant_items=summary.get('compliant_items', 0),
+                non_compliant_items=summary.get('non_compliant_items', 0),
+                failed_items=summary.get('failed_items', 0),
+                compliance_rate=summary.get('compliance_rate', 0.0)
+            )
+            
+            if not result.save():
+                logger.error(f"保存内容检查结果失败，任务ID: {task_id}")
+                return False
+            
+            # 保存详细检查项
+            check_results = result_data.get('check_results', [])
+            for item_data in check_results:
+                item = ContentCheckItem(
+                    task_id=task_id,
+                    item_number=item_data.get('item_number', ''),
+                    category=item_data.get('category', ''),
+                    check_scenario=item_data.get('check_scenario', ''),
+                    judgment=item_data.get('judgment', ''),
+                    probability=item_data.get('probability', 0.0),
+                    evidence=item_data.get('evidence', ''),
+                    detailed_result=item_data.get('detailed_result', ''),
+                    chunk_count=item_data.get('chunk_count', 0)
+                )
+                
+                if not item.save():
+                    logger.warning(f"保存内容检查项失败，任务ID: {task_id}, 项目: {item_data.get('item_number')}")
+            
+            logger.info(f"内容检查结果保存成功，任务ID: {task_id}")
+            return True
+            
+        except Exception as e:
+            logger.error(f"保存内容检查结果异常: {str(e)}, 任务ID: {task_id}")
+            return False
+    
+    @staticmethod
+    def get_check_result(task_id: str) -> Optional[Dict]:
+        """获取内容检查结果"""
+        try:
+            result = ContentCheckResult.find_by_task_id(task_id)
+            if not result:
+                return None
+            
+            items = ContentCheckItem.find_by_task_id(task_id)
+            
+            return {
+                'summary': {
+                    'total_items': result.total_items,
+                    'compliant_items': result.compliant_items,
+                    'non_compliant_items': result.non_compliant_items,
+                    'failed_items': result.failed_items,
+                    'compliance_rate': result.compliance_rate
+                },
+                'check_results': [item.to_dict() for item in items],
+                'document_filename': result.document_filename,
+                'checklist_filename': result.checklist_filename,
+                'plan_id': result.plan_id,
+                'upload_folder': result.upload_folder,
+                'created_time': result.created_time.isoformat() if result.created_time else None
+            }
+            
+        except Exception as e:
+            logger.error(f"获取内容检查结果异常: {str(e)}, 任务ID: {task_id}")
+            return None
+    
+    @staticmethod
+    def get_statistics(days: int = 30) -> Dict:
+        """获取内容检查统计信息"""
+        try:
+            # 这里可以实现统计逻辑，暂时返回空字典
+            return {}
+        except Exception as e:
+            logger.error(f"获取内容检查统计异常: {str(e)}")
+            return {}
+
+class CiteCheckDAO:
+    """引用检查数据访问对象"""
+    
+    @staticmethod
+    def save_check_result(task_id: str, result_data: Dict) -> bool:
+        """保存引用检查结果"""
+        try:
+            summary = result_data.get('summary', {})
+            
+            # 保存主结果
+            result = CiteCheckResult(
+                task_id=task_id,
+                document_filename=result_data.get('document_filename', ''),
+                cite_list_filename=result_data.get('cite_list_filename', ''),
+                plan_id=result_data.get('plan_id', ''),
+                upload_folder=result_data.get('upload_folder', ''),
+                total_citations=summary.get('total_citations', 0),
+                properly_cited=summary.get('properly_cited', 0),
+                missing_citations=summary.get('missing_citations', 0),
+                incorrectly_cited=summary.get('incorrectly_cited', 0),
+                failed_checks=summary.get('failed_checks', 0),
+                citation_rate=summary.get('citation_rate', 0.0)
+            )
+            
+            if not result.save():
+                logger.error(f"保存引用检查结果失败，任务ID: {task_id}")
+                return False
+            
+            # 保存详细引用项
+            citation_results = result_data.get('citation_results', [])
+            for item_data in citation_results:
+                item = CiteCheckItem(
+                    task_id=task_id,
+                    citation_id=item_data.get('citation_id', ''),
+                    title=item_data.get('title', ''),
+                    authors=item_data.get('authors', ''),
+                    publication=item_data.get('publication', ''),
+                    year=item_data.get('year', ''),
+                    standard_code=item_data.get('standard_code', ''),
+                    standard_name=item_data.get('standard_name', ''),
+                    issuing_dept=item_data.get('issuing_dept', ''),
+                    implementation_date=item_data.get('implementation_date', ''),
+                    status=item_data.get('status', ''),
+                    citation_text=item_data.get('citation_text', ''),
+                    citation_status=item_data.get('citation_status', ''),
+                    accuracy_score=item_data.get('accuracy_score', 0.0),
+                    evidence=item_data.get('evidence', ''),
+                    detailed_result=item_data.get('detailed_result', ''),
+                    chunk_count=item_data.get('chunk_count', 0)
+                )
+                
+                if not item.save():
+                    logger.warning(f"保存引用检查项失败，任务ID: {task_id}, 引用ID: {item_data.get('citation_id')}")
+            
+            logger.info(f"引用检查结果保存成功，任务ID: {task_id}")
+            return True
+            
+        except Exception as e:
+            logger.error(f"保存引用检查结果异常: {str(e)}, 任务ID: {task_id}")
+            return False
+    
+    @staticmethod
+    def get_check_result(task_id: str) -> Optional[Dict]:
+        """获取引用检查结果"""
+        try:
+            result = CiteCheckResult.find_by_task_id(task_id)
+            if not result:
+                return None
+            
+            items = CiteCheckItem.find_by_task_id(task_id)
+            
+            return {
+                'summary': {
+                    'total_citations': result.total_citations,
+                    'properly_cited': result.properly_cited,
+                    'missing_citations': result.missing_citations,
+                    'incorrectly_cited': result.incorrectly_cited,
+                    'failed_checks': result.failed_checks,
+                    'citation_rate': result.citation_rate
+                },
+                'citation_results': [item.to_dict() for item in items],
+                'document_filename': result.document_filename,
+                'cite_list_filename': result.cite_list_filename,
+                'plan_id': result.plan_id,
+                'upload_folder': result.upload_folder,
+                'created_time': result.created_time.isoformat() if result.created_time else None
+            }
+            
+        except Exception as e:
+            logger.error(f"获取引用检查结果异常: {str(e)}, 任务ID: {task_id}")
+            return None
+    
+    @staticmethod
+    def get_statistics(days: int = 30) -> Dict:
+        """获取引用检查统计信息"""
+        try:
+            # 这里可以实现统计逻辑，暂时返回空字典
+            return {}
+        except Exception as e:
+            logger.error(f"获取引用检查统计异常: {str(e)}")
             return {}

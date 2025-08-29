@@ -23538,3 +23538,332 @@ AssertionError
 2025-08-28 20:09:07,856 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
 2025-08-28 20:09:07,857 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
 2025-08-28 20:09:07,857 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-29 15:09:15,140 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-29 15:09:15,417 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-29 15:09:25,962 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-29 15:09:25,963 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-29 15:09:26,250 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-29 15:09:26,326 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-29 15:09:26,376 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-29 15:09:26,401 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-29 15:09:26,450 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-29 15:09:26,473 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-29 15:09:26,535 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-29 15:09:26,559 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-29 15:09:26,608 - db.models - INFO - ´´½¨document_references±í³É¹¦
+2025-08-29 15:09:26,633 - db.models - INFO - ±í document_references ´´½¨³É¹¦
+2025-08-29 15:09:26,696 - db.models - INFO - ´´½¨content_check_results±í³É¹¦
+2025-08-29 15:09:26,721 - db.models - INFO - ±í content_check_results ´´½¨³É¹¦
+2025-08-29 15:09:26,785 - db.models - INFO - ´´½¨content_check_items±í³É¹¦
+2025-08-29 15:09:26,808 - db.models - INFO - ±í content_check_items ´´½¨³É¹¦
+2025-08-29 15:09:26,872 - db.models - INFO - ´´½¨cite_check_results±í³É¹¦
+2025-08-29 15:09:26,897 - db.models - INFO - ±í cite_check_results ´´½¨³É¹¦
+2025-08-29 15:09:26,960 - db.models - INFO - ´´½¨cite_check_items±í³É¹¦
+2025-08-29 15:09:26,985 - db.models - INFO - ±í cite_check_items ´´½¨³É¹¦
+2025-08-29 15:09:26,985 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 8/8
+2025-08-29 15:09:26,985 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-29 15:09:26,986 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-29 15:09:26,988 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-29 15:09:26,989 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-29 15:09:27,032 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-29 15:09:27,033 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-29 15:09:38,960 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:09:38] "GET /swagger/ HTTP/1.1" 200 -
+2025-08-29 15:09:39,491 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:09:39] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-29 15:09:39,552 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:09:39] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-29 15:09:39,598 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:09:39] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-29 15:09:39,752 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:09:39] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-29 15:09:41,191 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:09:41] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-29 15:09:41,206 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:09:41] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-08-29 15:14:56,654 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-29 15:14:56,656 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-29 15:14:56,666 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-29 15:26:15,006 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-29 15:26:15,110 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-29 15:26:19,546 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-29 15:26:19,548 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-29 15:26:19,859 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-29 15:26:19,948 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-29 15:26:20,001 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-29 15:26:20,028 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-29 15:26:20,079 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-29 15:26:20,157 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-29 15:26:20,215 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-29 15:26:20,239 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-29 15:26:20,294 - db.models - INFO - ´´½¨document_references±í³É¹¦
+2025-08-29 15:26:20,318 - db.models - INFO - ±í document_references ´´½¨³É¹¦
+2025-08-29 15:26:20,372 - db.models - INFO - ´´½¨content_check_results±í³É¹¦
+2025-08-29 15:26:20,398 - db.models - INFO - ±í content_check_results ´´½¨³É¹¦
+2025-08-29 15:26:20,518 - db.models - INFO - ´´½¨content_check_items±í³É¹¦
+2025-08-29 15:26:20,554 - db.models - INFO - ±í content_check_items ´´½¨³É¹¦
+2025-08-29 15:26:20,610 - db.models - INFO - ´´½¨cite_check_results±í³É¹¦
+2025-08-29 15:26:20,634 - db.models - INFO - ±í cite_check_results ´´½¨³É¹¦
+2025-08-29 15:26:20,684 - db.models - INFO - ´´½¨cite_check_items±í³É¹¦
+2025-08-29 15:26:20,714 - db.models - INFO - ±í cite_check_items ´´½¨³É¹¦
+2025-08-29 15:26:20,715 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 8/8
+2025-08-29 15:26:20,716 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-29 15:26:20,716 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-29 15:26:20,717 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-29 15:26:20,717 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-29 15:26:20,754 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-29 15:26:20,755 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-29 15:26:23,041 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:26:23] "GET /swagger/ HTTP/1.1" 200 -
+2025-08-29 15:26:23,591 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:26:23] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-29 15:26:23,596 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:26:23] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-29 15:26:23,599 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:26:23] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-29 15:26:23,603 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:26:23] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-29 15:26:25,258 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:26:25] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-29 15:26:25,262 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:26:25] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-08-29 15:34:11,879 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-29 15:34:11,881 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-29 15:34:11,891 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-29 15:34:14,624 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-29 15:34:14,644 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-29 15:34:17,127 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-29 15:34:17,128 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-29 15:34:17,419 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-29 15:34:17,494 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-29 15:34:17,545 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-29 15:34:17,571 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-29 15:34:17,620 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-29 15:34:17,645 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-29 15:34:17,695 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-29 15:34:17,720 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-29 15:34:17,771 - db.models - INFO - ´´½¨document_references±í³É¹¦
+2025-08-29 15:34:17,796 - db.models - INFO - ±í document_references ´´½¨³É¹¦
+2025-08-29 15:34:17,846 - db.models - INFO - ´´½¨content_check_results±í³É¹¦
+2025-08-29 15:34:17,871 - db.models - INFO - ±í content_check_results ´´½¨³É¹¦
+2025-08-29 15:34:17,921 - db.models - INFO - ´´½¨content_check_items±í³É¹¦
+2025-08-29 15:34:17,946 - db.models - INFO - ±í content_check_items ´´½¨³É¹¦
+2025-08-29 15:34:17,997 - db.models - INFO - ´´½¨cite_check_results±í³É¹¦
+2025-08-29 15:34:18,022 - db.models - INFO - ±í cite_check_results ´´½¨³É¹¦
+2025-08-29 15:34:18,072 - db.models - INFO - ´´½¨cite_check_items±í³É¹¦
+2025-08-29 15:34:18,097 - db.models - INFO - ±í cite_check_items ´´½¨³É¹¦
+2025-08-29 15:34:18,097 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 8/8
+2025-08-29 15:34:18,098 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-29 15:34:18,098 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-29 15:34:18,098 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-29 15:34:18,099 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-29 15:34:18,119 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-29 15:34:18,120 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-29 15:34:19,909 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:34:19] "GET /swagger/ HTTP/1.1" 200 -
+2025-08-29 15:34:20,462 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:34:20] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-29 15:34:20,486 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:34:20] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-29 15:34:20,491 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:34:20] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-29 15:34:20,495 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:34:20] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-29 15:34:21,453 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:34:21] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-29 15:34:21,455 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:34:21] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-08-29 15:52:42,195 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:52:42] "[31m[1mPOST /async_content_check HTTP/1.1[0m" 400 -
+2025-08-29 15:52:50,406 - db.dao - INFO - ´´½¨Òì²½ÈÎÎñ³É¹¦: content_check_20250829_155250_331
+2025-08-29 15:52:50,482 - db.dao - INFO - ±£´æÎÄµµÒıÓÃ³É¹¦: weakness_list.jsonl
+2025-08-29 15:52:50,557 - db.dao - INFO - ±£´æÎÄµµÒıÓÃ³É¹¦: plan1.docx
+2025-08-29 15:52:50,558 - apis.api_content_check_async - INFO - ÈÎÎñºÍÎÄµµĞÅÏ¢ÒÑ±£´æµ½Êı¾İ¿â£¬ÈÎÎñID: content_check_20250829_155250_331
+2025-08-29 15:52:50,559 - apis.api_content_check_async - INFO - ¿ªÊ¼Òì²½Ö´ĞĞÄÚÈİ¼ì²é£¬ÈÎÎñID: content_check_20250829_155250_331
+2025-08-29 15:52:50,559 - apis.api_content_check_async - INFO - Òì²½ÄÚÈİ¼ì²éÈÎÎñÒÑÆô¶¯£¬ÈÎÎñID: content_check_20250829_155250_331
+2025-08-29 15:52:50,560 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:52:50] "POST /async_content_check HTTP/1.1" 200 -
+2025-08-29 15:52:50,784 - apis.api_content_check_async - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: content_check_20250829_155250_331, ×´Ì¬: processing
+2025-08-29 15:52:50,784 - apis.api_content_check_async - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: content_check_20250829_155250_331, ×´Ì¬: processing
+2025-08-29 15:52:50,801 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: content_check_20250829_155250_331, ×´Ì¬: processing, Ê±¼ä: 2025-08-29T15:52:50.784354
+2025-08-29 15:52:50,802 - apis.api_async_structure_check - INFO - ÈÎÎñ content_check_20250829_155250_331 ÕıÔÚ´¦ÀíÖĞ...
+2025-08-29 15:52:50,803 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:52:50] "POST /test/callback HTTP/1.1" 200 -
+2025-08-29 15:52:50,804 - apis.api_content_check_async - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: content_check_20250829_155250_331
+2025-08-29 15:52:55,493 - apis.api_content_check_async - INFO - ³É¹¦ÌáÈ¡ÎÄµµÄÚÈİ£¬³¤¶È: 43950 ×Ö·û
+2025-08-29 15:52:56,620 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 1/15 Ïî: {'·ÖÀà': '°²È«¹ÜÀí', 'ĞòºÅ': '1', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'Î´½¨Á¢°²È«Éú²úÔğÈÎÖÆ»òÔğÈÎÖÆ²»ÍêÉÆ'}
+2025-08-29 15:52:58,218 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 15:53:00,351 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 15:53:00,357 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 2/15 Ïî: {'·ÖÀà': '°²È«¹ÜÀí', 'ĞòºÅ': '2', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': '°²È«¹ÜÀíÈËÔ±ÅäÖÃ²»×ã»ò×ÊÖÊ²»·ûºÏÒªÇó'}
+2025-08-29 15:53:01,002 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 15:53:03,279 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 15:53:03,280 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 3/15 Ïî: {'·ÖÀà': '°²È«¹ÜÀí', 'ĞòºÅ': '3', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'Î´ÖÆ¶¨»òÎ´Ö´ĞĞ°²È«¼¼Êõ½»µ×ÖÆ¶È'}
+2025-08-29 15:53:04,190 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 15:53:07,034 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 15:53:07,036 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 4/15 Ïî: {'·ÖÀà': 'ÖÊÁ¿¿ØÖÆ', 'ĞòºÅ': '1', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'ÖÊÁ¿¹ÜÀíÌåÏµ²»ÍêÉÆ»òÈ±Ê§'}
+2025-08-29 15:53:07,693 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 15:53:10,034 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 15:53:10,054 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 5/15 Ïî: {'·ÖÀà': 'ÖÊÁ¿¿ØÖÆ', 'ĞòºÅ': '2', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': '¼ìÑéÅúÖÊÁ¿ÑéÊÕ±ê×¼²»Ã÷È·'}
+2025-08-29 15:53:10,650 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 15:53:13,190 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 15:53:13,192 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 6/15 Ïî: {'·ÖÀà': 'ÖÊÁ¿¿ØÖÆ', 'ĞòºÅ': '3', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': '¹Ø¼ü¹¤ĞòÖÊÁ¿¿ØÖÆ´ëÊ©È±Ê§'}
+2025-08-29 15:53:28,634 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 524 Receive timeout from origin"
+2025-08-29 15:53:28,634 - openai._base_client - INFO - Retrying request to /embeddings in 0.441127 seconds
+2025-08-29 15:53:30,015 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 15:53:36,084 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 15:53:36,087 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 7/15 Ïî: {'·ÖÀà': '½ø¶È¹ÜÀí', 'ĞòºÅ': '1', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'Ê©¹¤½ø¶È¼Æ»®²»ºÏÀí»òÈ±Ê§'}
+2025-08-29 15:53:36,535 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 15:53:42,659 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 15:53:42,661 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 8/15 Ïî: {'·ÖÀà': '½ø¶È¹ÜÀí', 'ĞòºÅ': '2', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': '×ÊÔ´ÅäÖÃÓë½ø¶È¼Æ»®²»Æ¥Åä'}
+2025-08-29 15:53:43,368 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 15:53:45,866 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 15:53:45,867 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 9/15 Ïî: {'·ÖÀà': '¼¼Êõ·½°¸', 'ĞòºÅ': '1', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'Ê©¹¤¹¤ÒÕ·½°¸²»ºÏÀí»ò´æÔÚ¼¼Êõ·çÏÕ'}
+2025-08-29 15:53:46,514 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 15:53:51,048 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 15:53:51,051 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 10/15 Ïî: {'·ÖÀà': '¼¼Êõ·½°¸', 'ĞòºÅ': '2', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': '¹Ø¼ü¼¼Êõ²ÎÊıÈ±Ê§»ò²»×¼È·'}
+2025-08-29 15:53:51,693 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 15:53:55,963 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 15:53:55,967 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 11/15 Ïî: {'·ÖÀà': '¼¼Êõ·½°¸', 'ĞòºÅ': '3', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'ĞÂ¼¼Êõ¡¢ĞÂ²ÄÁÏÓ¦ÓÃÈ±·¦³ä·ÖÂÛÖ¤'}
+2025-08-29 15:53:56,668 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 15:54:01,808 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 15:54:01,810 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 12/15 Ïî: {'·ÖÀà': '»·¾³±£»¤', 'ĞòºÅ': '1', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': '»·¾³±£»¤´ëÊ©²»ÍêÉÆ»òÈ±Ê§'}
+2025-08-29 15:54:02,437 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 15:54:17,481 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 15:54:17,483 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 13/15 Ïî: {'·ÖÀà': '»·¾³±£»¤', 'ĞòºÅ': '2', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': '·ÏÎï´¦Àí·½°¸²»ºÏ¹æ'}
+2025-08-29 15:54:18,080 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 15:54:20,688 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 15:54:20,689 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 14/15 Ïî: {'·ÖÀà': 'Ó¦¼±Ô¤°¸', 'ĞòºÅ': '1', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'Ó¦¼±Ô¤°¸²»ÍêÕû»òÈ±Ê§'}
+2025-08-29 15:54:21,606 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 15:54:24,622 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 15:54:24,626 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 15/15 Ïî: {'·ÖÀà': 'Ó¦¼±Ô¤°¸', 'ĞòºÅ': '2', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'Ó¦¼±×ÊÔ´ÅäÖÃ²»×ã'}
+2025-08-29 15:54:25,251 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 15:54:28,320 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 15:54:29,565 - db.dao - INFO - ÄÚÈİ¼ì²é½á¹û±£´æ³É¹¦£¬ÈÎÎñID: content_check_20250829_155250_331
+2025-08-29 15:54:29,783 - apis.api_content_check_async - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: content_check_20250829_155250_331, ×´Ì¬: success
+2025-08-29 15:54:29,783 - apis.api_content_check_async - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/callback, ÈÎÎñID: content_check_20250829_155250_331, ×´Ì¬: success
+2025-08-29 15:54:29,811 - apis.api_async_structure_check - INFO - ÊÕµ½»Øµ÷ÇëÇó - ÈÎÎñID: content_check_20250829_155250_331, ×´Ì¬: success, Ê±¼ä: 2025-08-29T15:54:29.783867
+2025-08-29 15:54:29,811 - apis.api_async_structure_check - INFO - ÈÎÎñ content_check_20250829_155250_331 Ö´ĞĞ³É¹¦:
+2025-08-29 15:54:29,812 - apis.api_async_structure_check - INFO -   - ×ÜÏîÄ¿Êı: 15
+2025-08-29 15:54:29,812 - apis.api_async_structure_check - INFO -   - ÍêÕûÏîÄ¿Êı: 0
+2025-08-29 15:54:29,812 - apis.api_async_structure_check - INFO -   - È±Ê§ÏîÄ¿Êı: 0
+2025-08-29 15:54:29,812 - apis.api_async_structure_check - INFO -   - ²¿·ÖÍêÕûÏîÄ¿Êı: 0
+2025-08-29 15:54:29,812 - apis.api_async_structure_check - INFO -   - ÍêÕûĞÔ±ÈÀı: 0%
+2025-08-29 15:54:29,813 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 15:54:29] "POST /test/callback HTTP/1.1" 200 -
+2025-08-29 15:54:29,814 - apis.api_content_check_async - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: content_check_20250829_155250_331
+2025-08-29 15:54:29,814 - apis.api_content_check_async - INFO - ÄÚÈİ¼ì²éÍê³É£¬ÈÎÎñID: content_check_20250829_155250_331
+2025-08-29 16:01:33,143 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:01:33] "GET /swagger/ HTTP/1.1" 200 -
+2025-08-29 16:01:33,358 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:01:33] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-29 16:01:33,458 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:01:33] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-29 16:01:33,500 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:01:33] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-29 16:01:33,611 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:01:33] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-29 16:01:35,039 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:01:35] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-29 16:01:35,093 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:01:35] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-08-29 16:09:26,355 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-29 16:09:26,357 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-29 16:09:26,358 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ
+2025-08-29 16:09:29,926 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-29 16:09:30,238 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-29 16:09:41,899 - __main__ - INFO - ¿ªÊ¼³õÊ¼»¯Ó¦ÓÃ...
+2025-08-29 16:09:41,899 - db.manager - INFO - ¿ªÊ¼³õÊ¼»¯Êı¾İ¿â...
+2025-08-29 16:09:42,196 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó³Ø³õÊ¼»¯Íê³É£¬³õÊ¼Á¬½ÓÊı: 3
+2025-08-29 16:09:42,327 - db.connection - INFO - Êı¾İ¿âÁ¬½Ó²âÊÔ³É¹¦
+2025-08-29 16:09:42,378 - db.models - INFO - ´´½¨async_tasks±í³É¹¦
+2025-08-29 16:09:42,405 - db.models - INFO - ±í async_tasks ´´½¨³É¹¦
+2025-08-29 16:09:42,457 - db.models - INFO - ´´½¨structure_check_results±í³É¹¦
+2025-08-29 16:09:42,482 - db.models - INFO - ±í structure_check_results ´´½¨³É¹¦
+2025-08-29 16:09:42,532 - db.models - INFO - ´´½¨structure_check_items±í³É¹¦
+2025-08-29 16:09:42,557 - db.models - INFO - ±í structure_check_items ´´½¨³É¹¦
+2025-08-29 16:09:42,608 - db.models - INFO - ´´½¨document_references±í³É¹¦
+2025-08-29 16:09:42,635 - db.models - INFO - ±í document_references ´´½¨³É¹¦
+2025-08-29 16:09:42,686 - db.models - INFO - ´´½¨content_check_results±í³É¹¦
+2025-08-29 16:09:42,712 - db.models - INFO - ±í content_check_results ´´½¨³É¹¦
+2025-08-29 16:09:42,764 - db.models - INFO - ´´½¨content_check_items±í³É¹¦
+2025-08-29 16:09:42,789 - db.models - INFO - ±í content_check_items ´´½¨³É¹¦
+2025-08-29 16:09:42,840 - db.models - INFO - ´´½¨cite_check_results±í³É¹¦
+2025-08-29 16:09:42,867 - db.models - INFO - ±í cite_check_results ´´½¨³É¹¦
+2025-08-29 16:09:42,918 - db.models - INFO - ´´½¨cite_check_items±í³É¹¦
+2025-08-29 16:09:42,943 - db.models - INFO - ±í cite_check_items ´´½¨³É¹¦
+2025-08-29 16:09:42,944 - db.models - INFO - Êı¾İ±í´´½¨Íê³É£¬³É¹¦: 8/8
+2025-08-29 16:09:42,944 - db.manager - INFO - Êı¾İ¿â³õÊ¼»¯Íê³É
+2025-08-29 16:09:42,945 - __main__ - INFO - Êı¾İ¿â³õÊ¼»¯³É¹¦
+2025-08-29 16:09:42,945 - __main__ - INFO - Ó¦ÓÃ³õÊ¼»¯Íê³É
+2025-08-29 16:09:42,945 - __main__ - INFO - Æô¶¯FlaskÓ¦ÓÃ...
+2025-08-29 16:09:42,986 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.32.80.52:5000
+2025-08-29 16:09:42,986 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-29 16:09:45,211 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:09:45] "GET /swagger/ HTTP/1.1" 200 -
+2025-08-29 16:09:45,786 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:09:45] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-08-29 16:09:45,800 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:09:45] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-08-29 16:09:45,829 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:09:45] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-08-29 16:09:45,840 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:09:45] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-08-29 16:09:47,514 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:09:47] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-08-29 16:09:47,516 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:09:47] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-08-29 16:10:22,572 - db.dao - INFO - ´´½¨Òì²½ÈÎÎñ³É¹¦: content_check_20250829_161022_494
+2025-08-29 16:10:22,650 - db.dao - INFO - ±£´æÎÄµµÒıÓÃ³É¹¦: weakness_list.jsonl
+2025-08-29 16:10:22,726 - db.dao - INFO - ±£´æÎÄµµÒıÓÃ³É¹¦: plan1.docx
+2025-08-29 16:10:22,727 - apis.api_content_check_async - INFO - ÈÎÎñºÍÎÄµµĞÅÏ¢ÒÑ±£´æµ½Êı¾İ¿â£¬ÈÎÎñID: content_check_20250829_161022_494
+2025-08-29 16:10:22,728 - apis.api_content_check_async - INFO - ¿ªÊ¼Òì²½Ö´ĞĞÄÚÈİ¼ì²é£¬ÈÎÎñID: content_check_20250829_161022_494
+2025-08-29 16:10:22,728 - apis.api_content_check_async - INFO - Òì²½ÄÚÈİ¼ì²éÈÎÎñÒÑÆô¶¯£¬ÈÎÎñID: content_check_20250829_161022_494
+2025-08-29 16:10:22,730 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:10:22] "POST /async_content_check HTTP/1.1" 200 -
+2025-08-29 16:10:22,958 - apis.api_content_check_async - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: content_check_20250829_161022_494, ×´Ì¬: processing
+2025-08-29 16:10:22,959 - apis.api_content_check_async - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/content/callback, ÈÎÎñID: content_check_20250829_161022_494, ×´Ì¬: processing
+2025-08-29 16:10:22,965 - apis.api_content_check_async - INFO - ÊÕµ½ÄÚÈİ¼ì²é»Øµ÷ÇëÇó - ÈÎÎñID: content_check_20250829_161022_494, ×´Ì¬: processing, Ê±¼ä: 2025-08-29T16:10:22.959810
+2025-08-29 16:10:22,966 - apis.api_content_check_async - INFO - ÈÎÎñ content_check_20250829_161022_494 ÕıÔÚ´¦ÀíÖĞ...
+2025-08-29 16:10:22,966 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:10:22] "POST /test/content/callback HTTP/1.1" 200 -
+2025-08-29 16:10:22,967 - apis.api_content_check_async - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: content_check_20250829_161022_494
+2025-08-29 16:10:27,482 - apis.api_content_check_async - INFO - ³É¹¦ÌáÈ¡ÎÄµµÄÚÈİ£¬³¤¶È: 43950 ×Ö·û
+2025-08-29 16:10:28,389 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 1/15 Ïî: {'·ÖÀà': '°²È«¹ÜÀí', 'ĞòºÅ': '1', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'Î´½¨Á¢°²È«Éú²úÔğÈÎÖÆ»òÔğÈÎÖÆ²»ÍêÉÆ'}
+2025-08-29 16:10:29,557 - openai._base_client - INFO - Retrying request to /embeddings in 0.466190 seconds
+2025-08-29 16:10:31,510 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 16:10:35,298 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:10:35,301 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 2/15 Ïî: {'·ÖÀà': '°²È«¹ÜÀí', 'ĞòºÅ': '2', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': '°²È«¹ÜÀíÈËÔ±ÅäÖÃ²»×ã»ò×ÊÖÊ²»·ûºÏÒªÇó'}
+2025-08-29 16:10:36,001 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 16:10:38,375 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:10:38,377 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 3/15 Ïî: {'·ÖÀà': '°²È«¹ÜÀí', 'ĞòºÅ': '3', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'Î´ÖÆ¶¨»òÎ´Ö´ĞĞ°²È«¼¼Êõ½»µ×ÖÆ¶È'}
+2025-08-29 16:10:39,568 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 16:10:47,321 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:10:47,323 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 4/15 Ïî: {'·ÖÀà': 'ÖÊÁ¿¿ØÖÆ', 'ĞòºÅ': '1', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'ÖÊÁ¿¹ÜÀíÌåÏµ²»ÍêÉÆ»òÈ±Ê§'}
+2025-08-29 16:10:47,801 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 16:10:51,269 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:10:51,271 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 5/15 Ïî: {'·ÖÀà': 'ÖÊÁ¿¿ØÖÆ', 'ĞòºÅ': '2', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': '¼ìÑéÅúÖÊÁ¿ÑéÊÕ±ê×¼²»Ã÷È·'}
+2025-08-29 16:10:52,316 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 16:10:54,964 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:10:54,965 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 6/15 Ïî: {'·ÖÀà': 'ÖÊÁ¿¿ØÖÆ', 'ĞòºÅ': '3', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': '¹Ø¼ü¹¤ĞòÖÊÁ¿¿ØÖÆ´ëÊ©È±Ê§'}
+2025-08-29 16:10:55,837 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 16:10:59,486 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:10:59,487 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 7/15 Ïî: {'·ÖÀà': '½ø¶È¹ÜÀí', 'ĞòºÅ': '1', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'Ê©¹¤½ø¶È¼Æ»®²»ºÏÀí»òÈ±Ê§'}
+2025-08-29 16:10:59,994 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 16:11:07,402 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:11:07,403 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 8/15 Ïî: {'·ÖÀà': '½ø¶È¹ÜÀí', 'ĞòºÅ': '2', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': '×ÊÔ´ÅäÖÃÓë½ø¶È¼Æ»®²»Æ¥Åä'}
+2025-08-29 16:11:07,986 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 16:11:23,438 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 524 Receive timeout from origin"
+2025-08-29 16:11:23,439 - openai._base_client - INFO - Retrying request to /chat/completions in 0.398944 seconds
+2025-08-29 16:11:39,283 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 524 Receive timeout from origin"
+2025-08-29 16:11:39,284 - openai._base_client - INFO - Retrying request to /chat/completions in 0.793113 seconds
+2025-08-29 16:11:55,541 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 524 Receive timeout from origin"
+2025-08-29 16:11:55,543 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 9/15 Ïî: {'·ÖÀà': '¼¼Êõ·½°¸', 'ĞòºÅ': '1', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'Ê©¹¤¹¤ÒÕ·½°¸²»ºÏÀí»ò´æÔÚ¼¼Êõ·çÏÕ'}
+2025-08-29 16:11:55,985 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 16:11:59,064 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:11:59,066 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 10/15 Ïî: {'·ÖÀà': '¼¼Êõ·½°¸', 'ĞòºÅ': '2', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': '¹Ø¼ü¼¼Êõ²ÎÊıÈ±Ê§»ò²»×¼È·'}
+2025-08-29 16:11:59,587 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 16:12:01,751 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:12:01,752 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 11/15 Ïî: {'·ÖÀà': '¼¼Êõ·½°¸', 'ĞòºÅ': '3', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'ĞÂ¼¼Êõ¡¢ĞÂ²ÄÁÏÓ¦ÓÃÈ±·¦³ä·ÖÂÛÖ¤'}
+2025-08-29 16:12:02,502 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 16:12:05,341 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:12:05,342 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 12/15 Ïî: {'·ÖÀà': '»·¾³±£»¤', 'ĞòºÅ': '1', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': '»·¾³±£»¤´ëÊ©²»ÍêÉÆ»òÈ±Ê§'}
+2025-08-29 16:12:06,142 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 16:12:09,418 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:12:09,421 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 13/15 Ïî: {'·ÖÀà': '»·¾³±£»¤', 'ĞòºÅ': '2', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': '·ÏÎï´¦Àí·½°¸²»ºÏ¹æ'}
+2025-08-29 16:12:10,005 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 16:12:25,434 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 524 Receive timeout from origin"
+2025-08-29 16:12:25,434 - openai._base_client - INFO - Retrying request to /chat/completions in 0.393035 seconds
+2025-08-29 16:12:40,731 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:12:40,733 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 14/15 Ïî: {'·ÖÀà': 'Ó¦¼±Ô¤°¸', 'ĞòºÅ': '1', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'Ó¦¼±Ô¤°¸²»ÍêÕû»òÈ±Ê§'}
+2025-08-29 16:12:41,234 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 16:12:43,854 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:12:43,856 - apis.api_content_check_async - INFO - ÕıÔÚ¼ì²éµÚ 15/15 Ïî: {'·ÖÀà': 'Ó¦¼±Ô¤°¸', 'ĞòºÅ': '2', '×¨ÏîÊ©¹¤·½°¸ÑÏÖØÈ±ÏİÇéĞÎ': 'Ó¦¼±×ÊÔ´ÅäÖÃ²»×ã'}
+2025-08-29 16:12:44,450 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 16:12:49,107 - httpx - INFO - HTTP Request: POST https://api.mnapi.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 16:12:50,349 - db.dao - INFO - ÄÚÈİ¼ì²é½á¹û±£´æ³É¹¦£¬ÈÎÎñID: content_check_20250829_161022_494
+2025-08-29 16:12:50,575 - apis.api_content_check_async - INFO - Êı¾İ¿â×´Ì¬¸üĞÂ³É¹¦£¬ÈÎÎñID: content_check_20250829_161022_494, ×´Ì¬: success
+2025-08-29 16:12:50,575 - apis.api_content_check_async - INFO - ·¢ËÍ»Øµ÷µ½: http://127.0.0.1:5000/test/content/callback, ÈÎÎñID: content_check_20250829_161022_494, ×´Ì¬: success
+2025-08-29 16:12:50,605 - apis.api_content_check_async - INFO - ÊÕµ½ÄÚÈİ¼ì²é»Øµ÷ÇëÇó - ÈÎÎñID: content_check_20250829_161022_494, ×´Ì¬: success, Ê±¼ä: 2025-08-29T16:12:50.575891
+2025-08-29 16:12:50,606 - apis.api_content_check_async - INFO - ÈÎÎñ content_check_20250829_161022_494 Ö´ĞĞ³É¹¦:
+2025-08-29 16:12:50,607 - apis.api_content_check_async - INFO -   - ×Ü¼ì²éÏîÊı: 15
+2025-08-29 16:12:50,607 - apis.api_content_check_async - INFO -   - ºÏ¹æÏîÄ¿Êı: 6
+2025-08-29 16:12:50,608 - apis.api_content_check_async - INFO -   - ²»ºÏ¹æÏîÄ¿Êı: 8
+2025-08-29 16:12:50,608 - apis.api_content_check_async - INFO -   - Ê§°ÜÏîÄ¿Êı: 0
+2025-08-29 16:12:50,608 - apis.api_content_check_async - INFO -   - ºÏ¹æÂÊ: 40.0%
+2025-08-29 16:12:50,609 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 16:12:50] "POST /test/content/callback HTTP/1.1" 200 -
+2025-08-29 16:12:50,610 - apis.api_content_check_async - INFO - »Øµ÷·¢ËÍ³É¹¦£¬ÈÎÎñID: content_check_20250829_161022_494
+2025-08-29 16:12:50,610 - apis.api_content_check_async - INFO - ÄÚÈİ¼ì²éÍê³É£¬ÈÎÎñID: content_check_20250829_161022_494
+2025-08-29 16:13:43,449 - __main__ - INFO - ¿ªÊ¼ÇåÀíÓ¦ÓÃ×ÊÔ´...
+2025-08-29 16:13:43,451 - db.connection - INFO - ËùÓĞÊı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ
+2025-08-29 16:13:43,451 - __main__ - INFO - Êı¾İ¿âÁ¬½Ó³ØÒÑ¹Ø±Õ

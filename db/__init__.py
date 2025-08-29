@@ -27,6 +27,10 @@ from .models import (
     StructureCheckResult, 
     StructureCheckItem,
     DocumentReference,
+    ContentCheckResult,
+    ContentCheckItem,
+    CiteCheckResult,
+    CiteCheckItem,
     create_all_tables,
     drop_all_tables
 )
@@ -36,7 +40,9 @@ from .dao import (
     AsyncTaskDAO,
     StructureCheckDAO,
     DocumentDAO,
-    ReportDAO
+    ReportDAO,
+    ContentCheckDAO,
+    CiteCheckDAO
 )
 
 # 数据库管理器
@@ -61,10 +67,12 @@ __all__ = [
     # 模型
     'BaseModel', 'AsyncTask', 'StructureCheckResult', 
     'StructureCheckItem', 'DocumentReference',
+    'ContentCheckResult', 'ContentCheckItem', 'CiteCheckResult', 'CiteCheckItem',
     'create_all_tables', 'drop_all_tables',
     
     # DAO
     'AsyncTaskDAO', 'StructureCheckDAO', 'DocumentDAO', 'ReportDAO',
+    'ContentCheckDAO', 'CiteCheckDAO',
     
     # 管理器
     'DatabaseManager', 'db_manager', 'init_database', 

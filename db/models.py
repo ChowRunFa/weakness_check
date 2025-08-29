@@ -392,9 +392,281 @@ class DocumentReference(BaseModel):
             logger.error(f"创建document_references表失败: {str(e)}")
             return False
 
+@dataclass
+class ContentCheckResult(BaseModel):
+    """内容检查结果模型"""
+    table_name = "content_check_results"
+    primary_key = "id"
+    
+    id: Optional[int] = None
+    task_id: str = ""
+    document_filename: str = ""
+    checklist_filename: str = ""
+    plan_id: str = ""
+    upload_folder: str = ""
+    total_items: int = 0
+    compliant_items: int = 0
+    non_compliant_items: int = 0
+    failed_items: int = 0
+    compliance_rate: float = 0.0
+    created_time: Optional[datetime] = None
+    
+    def __post_init__(self):
+        if self.created_time is None:
+            self.created_time = datetime.now()
+    
+    @classmethod
+    def find_by_task_id(cls, task_id: str) -> Optional['ContentCheckResult']:
+        """根据任务ID查找结果"""
+        return cls.find_one("task_id = %s", (task_id,))
+    
+    @classmethod
+    def create_table(cls) -> bool:
+        """创建content_check_results表"""
+        try:
+            with get_db_connection() as conn:
+                if not conn:
+                    return False
+                
+                with conn.cursor() as cursor:
+                    sql = """
+                    CREATE TABLE IF NOT EXISTS content_check_results (
+                        id INT AUTO_INCREMENT PRIMARY KEY,
+                        task_id VARCHAR(100) NOT NULL,
+                        document_filename VARCHAR(255) NOT NULL,
+                        checklist_filename VARCHAR(255) NOT NULL,
+                        plan_id VARCHAR(100),
+                        upload_folder VARCHAR(100),
+                        total_items INT NOT NULL DEFAULT 0,
+                        compliant_items INT NOT NULL DEFAULT 0,
+                        non_compliant_items INT NOT NULL DEFAULT 0,
+                        failed_items INT NOT NULL DEFAULT 0,
+                        compliance_rate DECIMAL(5,2) NOT NULL DEFAULT 0.00,
+                        created_time DATETIME NOT NULL,
+                        INDEX idx_task_id (task_id),
+                        INDEX idx_created_time (created_time),
+                        INDEX idx_compliance_rate (compliance_rate)
+                    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+                    """
+                    cursor.execute(sql)
+                    logger.info("创建content_check_results表成功")
+                    return True
+                    
+        except Exception as e:
+            logger.error(f"创建content_check_results表失败: {str(e)}")
+            return False
+
+@dataclass
+class ContentCheckItem(BaseModel):
+    """内容检查项目模型"""
+    table_name = "content_check_items"
+    primary_key = "id"
+    
+    id: Optional[int] = None
+    task_id: str = ""
+    item_number: str = ""
+    category: str = ""
+    check_scenario: str = ""
+    judgment: str = ""  # 合规, 不合规, 无法判断, 检查失败
+    probability: float = 0.0
+    evidence: Optional[str] = None
+    detailed_result: Optional[str] = None
+    chunk_count: int = 0
+    created_time: Optional[datetime] = None
+    
+    def __post_init__(self):
+        if self.created_time is None:
+            self.created_time = datetime.now()
+    
+    @classmethod
+    def find_by_task_id(cls, task_id: str) -> List['ContentCheckItem']:
+        """根据任务ID查找所有检查项"""
+        return cls.find_all("task_id = %s ORDER BY item_number", (task_id,))
+    
+    @classmethod
+    def create_table(cls) -> bool:
+        """创建content_check_items表"""
+        try:
+            with get_db_connection() as conn:
+                if not conn:
+                    return False
+                
+                with conn.cursor() as cursor:
+                    sql = """
+                    CREATE TABLE IF NOT EXISTS content_check_items (
+                        id INT AUTO_INCREMENT PRIMARY KEY,
+                        task_id VARCHAR(100) NOT NULL,
+                        item_number VARCHAR(50) NOT NULL,
+                        category VARCHAR(100),
+                        check_scenario TEXT,
+                        judgment VARCHAR(50),
+                        probability DECIMAL(5,3) DEFAULT 0.000,
+                        evidence TEXT,
+                        detailed_result TEXT,
+                        chunk_count INT DEFAULT 0,
+                        created_time DATETIME NOT NULL,
+                        INDEX idx_task_id (task_id),
+                        INDEX idx_judgment (judgment),
+                        INDEX idx_created_time (created_time)
+                    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+                    """
+                    cursor.execute(sql)
+                    logger.info("创建content_check_items表成功")
+                    return True
+                    
+        except Exception as e:
+            logger.error(f"创建content_check_items表失败: {str(e)}")
+            return False
+
+@dataclass
+class CiteCheckResult(BaseModel):
+    """引用检查结果模型"""
+    table_name = "cite_check_results"
+    primary_key = "id"
+    
+    id: Optional[int] = None
+    task_id: str = ""
+    document_filename: str = ""
+    cite_list_filename: str = ""
+    plan_id: str = ""
+    upload_folder: str = ""
+    total_citations: int = 0
+    properly_cited: int = 0
+    missing_citations: int = 0
+    incorrectly_cited: int = 0
+    failed_checks: int = 0
+    citation_rate: float = 0.0
+    created_time: Optional[datetime] = None
+    
+    def __post_init__(self):
+        if self.created_time is None:
+            self.created_time = datetime.now()
+    
+    @classmethod
+    def find_by_task_id(cls, task_id: str) -> Optional['CiteCheckResult']:
+        """根据任务ID查找结果"""
+        return cls.find_one("task_id = %s", (task_id,))
+    
+    @classmethod
+    def create_table(cls) -> bool:
+        """创建cite_check_results表"""
+        try:
+            with get_db_connection() as conn:
+                if not conn:
+                    return False
+                
+                with conn.cursor() as cursor:
+                    sql = """
+                    CREATE TABLE IF NOT EXISTS cite_check_results (
+                        id INT AUTO_INCREMENT PRIMARY KEY,
+                        task_id VARCHAR(100) NOT NULL,
+                        document_filename VARCHAR(255) NOT NULL,
+                        cite_list_filename VARCHAR(255) NOT NULL,
+                        plan_id VARCHAR(100),
+                        upload_folder VARCHAR(100),
+                        total_citations INT NOT NULL DEFAULT 0,
+                        properly_cited INT NOT NULL DEFAULT 0,
+                        missing_citations INT NOT NULL DEFAULT 0,
+                        incorrectly_cited INT NOT NULL DEFAULT 0,
+                        failed_checks INT NOT NULL DEFAULT 0,
+                        citation_rate DECIMAL(5,2) NOT NULL DEFAULT 0.00,
+                        created_time DATETIME NOT NULL,
+                        INDEX idx_task_id (task_id),
+                        INDEX idx_created_time (created_time),
+                        INDEX idx_citation_rate (citation_rate)
+                    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+                    """
+                    cursor.execute(sql)
+                    logger.info("创建cite_check_results表成功")
+                    return True
+                    
+        except Exception as e:
+            logger.error(f"创建cite_check_results表失败: {str(e)}")
+            return False
+
+@dataclass
+class CiteCheckItem(BaseModel):
+    """引用检查项目模型"""
+    table_name = "cite_check_items"
+    primary_key = "id"
+    
+    id: Optional[int] = None
+    task_id: str = ""
+    citation_id: str = ""
+    title: str = ""
+    authors: str = ""
+    publication: str = ""
+    year: str = ""
+    standard_code: str = ""
+    standard_name: str = ""
+    issuing_dept: str = ""
+    implementation_date: str = ""
+    status: str = ""
+    citation_text: str = ""
+    citation_status: str = ""  # 正确引用, 缺失引用, 引用有误, 引用不完整, 检查失败
+    accuracy_score: float = 0.0
+    evidence: Optional[str] = None
+    detailed_result: Optional[str] = None
+    chunk_count: int = 0
+    created_time: Optional[datetime] = None
+    
+    def __post_init__(self):
+        if self.created_time is None:
+            self.created_time = datetime.now()
+    
+    @classmethod
+    def find_by_task_id(cls, task_id: str) -> List['CiteCheckItem']:
+        """根据任务ID查找所有引用项"""
+        return cls.find_all("task_id = %s ORDER BY citation_id", (task_id,))
+    
+    @classmethod
+    def create_table(cls) -> bool:
+        """创建cite_check_items表"""
+        try:
+            with get_db_connection() as conn:
+                if not conn:
+                    return False
+                
+                with conn.cursor() as cursor:
+                    sql = """
+                    CREATE TABLE IF NOT EXISTS cite_check_items (
+                        id INT AUTO_INCREMENT PRIMARY KEY,
+                        task_id VARCHAR(100) NOT NULL,
+                        citation_id VARCHAR(100),
+                        title VARCHAR(500),
+                        authors VARCHAR(200),
+                        publication VARCHAR(200),
+                        year VARCHAR(20),
+                        standard_code VARCHAR(100),
+                        standard_name VARCHAR(500),
+                        issuing_dept VARCHAR(200),
+                        implementation_date VARCHAR(50),
+                        status VARCHAR(50),
+                        citation_text TEXT,
+                        citation_status VARCHAR(50),
+                        accuracy_score DECIMAL(5,3) DEFAULT 0.000,
+                        evidence TEXT,
+                        detailed_result TEXT,
+                        chunk_count INT DEFAULT 0,
+                        created_time DATETIME NOT NULL,
+                        INDEX idx_task_id (task_id),
+                        INDEX idx_citation_status (citation_status),
+                        INDEX idx_standard_code (standard_code),
+                        INDEX idx_created_time (created_time)
+                    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+                    """
+                    cursor.execute(sql)
+                    logger.info("创建cite_check_items表成功")
+                    return True
+                    
+        except Exception as e:
+            logger.error(f"创建cite_check_items表失败: {str(e)}")
+            return False
+
 def create_all_tables() -> bool:
     """创建所有数据表"""
-    models = [AsyncTask, StructureCheckResult, StructureCheckItem, DocumentReference]
+    models = [AsyncTask, StructureCheckResult, StructureCheckItem, DocumentReference, 
+              ContentCheckResult, ContentCheckItem, CiteCheckResult, CiteCheckItem]
     
     success_count = 0
     for model in models:
@@ -412,7 +684,8 @@ def create_all_tables() -> bool:
 
 def drop_all_tables() -> bool:
     """删除所有数据表"""
-    models = [AsyncTask, StructureCheckResult, StructureCheckItem, DocumentReference]
+    models = [AsyncTask, StructureCheckResult, StructureCheckItem, DocumentReference,
+              ContentCheckResult, ContentCheckItem, CiteCheckResult, CiteCheckItem]
     
     success_count = 0
     for model in models:
